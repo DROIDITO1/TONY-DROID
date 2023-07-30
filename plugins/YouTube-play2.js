@@ -24,7 +24,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 ➯➤⌚ *Duration:* ${secondString(yt_play[0].duration.seconds)}
 ➯➤👀 *Views:* ${`${MilesNumber(yt_play[0].views)}`}
 ➯➤🔗 *Link:* ${yt_play[0].url}
-▢⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍`.trim();
+▢⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play3' || command == 'playdoc') {
       try {
