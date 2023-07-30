@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
     let user = global.db.data.users[m.sender]
     if (!canLevelUp(user.level, user.exp, global.multiplier)) {
         let { min, xp, max } = xpRange(user.level, global.multiplier)
-        throw `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+        throw `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯─⊷ *LEVEL
 │➯Nombre : *${name}*
 │➯Nivel : *${user.level}*
@@ -18,7 +18,7 @@ You need *${max - user.exp}* of *XP* to level up`.trim()
     while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
     if (before !== user.level) {
         let teks = `🎊 Bien hecho ${conn.getName(m.sender)}    Nivel:`
-        let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+        let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯─⊷ *LEVEL UP*
 │➯Nivel anterior : *${before}*
 │➯Nivel actual : *${user.level}*
