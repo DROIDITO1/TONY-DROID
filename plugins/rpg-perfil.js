@@ -13,7 +13,7 @@ let { name, role, level, limit, money, exp, joincount, lastclaim, registered, re
 let username = conn.getName(who)
 let prem = global.prems.includes(who.split `@` [0])
 let sn = createHash('md5').update(who).digest('hex')
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
 │➯ *🌐𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
 │➯ *Rango:* ${role}
