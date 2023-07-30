@@ -20,19 +20,17 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯Hola bienvenidos al servidor de minecraft
-│➯Java
-│➯mc.fenixcraft.org
+│➯!Hola¡ IP DE MI CREADOR: 782.542.0.12
+│➯TU IP: 431.231.098.23
 │━━━━━━━━━
-│➯Bedrock
-│➯mc.fenixcraft.org
-│➯Puerto: 19132
+│➯SI FUERAS POLONIA
+│➯YO SERIA ALEMANIA.
+│➯BOMBARERN PERU
 │━━━━━━━━━
-│➯Recomendada: 1.19.2
-│➯Usable: 1.8 hasta 1.20.X
-│➯Bedrock: 1.20 +
+│➯         ✩
+│➯https://vm.tiktok.com/ZM2Gaja2C/
 ╰───────────────╯
 `.trim()
 if (m.isGroup) {
