@@ -15,7 +15,7 @@ let captionvid = `➤͜͡🎶📌*name:* *${yt_play[0].title}*
 ➤͜͡⌚ *Duration:* *${secondString(yt_play[0].duration.seconds)}*
 ➤͜͡👀 *Views:* *${MilesNumber(yt_play[0].views)}*
 ➤͜͡🔗 *Link:* * ${yt_play[0].url}*
-⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍`  
+⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
