@@ -1,9 +1,9 @@
 let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let text = `*https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git*`
+let text = `*https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L*`
 let buttonMessage= {
-'document': { url: `https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git` },
+'document': { url: `https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,
@@ -12,13 +12,13 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git',
+'mediaUrl': 'https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://youtu.be/4eA5nDxPjOA' }},
+'sourceUrl': 'http://tiktok.com/@coin.exe1' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
