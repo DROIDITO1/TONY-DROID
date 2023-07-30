@@ -3,7 +3,7 @@ let who
 if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
 else who = m.sender
 let name = conn.getName(who) 
-m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+m.reply(`╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │💰 *𝐁𝐀𝐋𝐀𝐍𝐂𝐄* 
 │┈┈┈┈┈┈┈┈┈┈┈┈┈
 │➯‣❏ *✨*𝙽𝚘𝚖𝚋𝚛𝚎:* ${name}
