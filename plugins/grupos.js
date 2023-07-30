@@ -17,38 +17,29 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
-│➯🧿 *Número*➟5212412377467*
-│➯📽️ *canal-YouTube*
-│➯🖇️ *https://youtube.com/@hades_bot2391*
+│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟𝑻𝑶𝑵𝒀*
+│➯🧿 *Número*➟50258487658*
+│➯📽️ *TIK-TOK*
+│➯🖇️ *http://tiktok.com/@coin.exe1*
 │➯📅 *ғᴇᴄʜᴀ:➟${date}*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
 │➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「❥🧿 *Grupos y cuentas*🧿 ❥」
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰*
-│➯🧿 https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰2*
-│➯🧿 https://chat.whatsapp.com/DpRVuXpKRF43iMOEtg85wz
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰3*
-│➯🧿 https://chat.whatsapp.com/LLCdXUAUjtVA8And8clsWu
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰4*
-│➯🧿https://chat.whatsapp.com/DSb14IPCAaU0ZovBwA2ts0
-│➯🧿 *𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰*
-│➯🧿 https://chat.whatsapp.com/BuloWd29LSnDZHXtUJDybF
-│➯🧿 *𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰2*
-│➯🧿 https://chat.whatsapp.com/CJqwaDfrXP02oWl2WAf8rK
-│➯👥 *𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔*
-│➯👥 https://www.facebook.com/groups/987464505464904/?ref=share
+│➯🧿 *𝐃𝐑𝐎𝐈𝐃*
+│➯🧿 https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L
+│➯🧿 *𝐃𝐑𝐎𝐈𝐃2*
+│➯🧿 https://chat.whatsapp.com/FkGUlavMirAGGaqC9ATugV
+
 │➯📽️ *𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎*
-│➯🖇️ https://youtube.com/@hades_bot2391
+│➯🖇️ 𝐍𝐎 𝐇𝐀𝐘.𝐗𝐃
 │➯🎋 *INSTAGRAM*
-│➯🖇️ https://instagram.com/ofc.yovani.bot?igshid=ZDc4ODBmNjlmNQ==
+│➯🖇️ 𝐍𝐎 𝐇𝐀𝐘: 𝐗2
 │➯🔮 *KIKTOK*
-│➯🖇️ https://vm.tiktok.com/ZM2rbFWnr/
+│➯🖇️ http://tiktok.com/@coin.exe1/
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})
