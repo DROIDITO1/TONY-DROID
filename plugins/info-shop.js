@@ -30,22 +30,22 @@ let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰�
 │➯ *.listprem*
 ︎╰───────────────╯`.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/OFC-YOVANI/HADES-BOT-OMEGA` },
+'document': { url: `https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L` },
 'mimetype': `application/${document}`,
-'fileName': `⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍`,
+'fileName': `⫷᭄DROID-8-MD﹏✍`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA',
+'mediaUrl': 'https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://youtu.be/4eA5nDxPjOA' }},
+'sourceUrl': 'https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
