@@ -5,12 +5,12 @@ let img = await(await fetch('https://github.com/OFC-YOVANI.png')).buffer()
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「❥ *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰* ❥」
+let str = `╭「❥ *𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃* ❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
 │
 │➯🤖 *ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ➟ᴀᴄᴛɪᴠᴏ:* ${uptime}
-│➯🔗 *ᴄᴜᴇɴᴛᴀ ᴏғᴄ:* *https://youtube.com/@hades_bot2391*
+│➯🔗 *ᴄᴜᴇɴᴛᴀ ᴏғᴄ:* *http://tiktok.com/@coin.exe1*
 ︎╰───────────────╯`.trim() 
 if (m.isGroup) {
 conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}, { quoted: m })    
