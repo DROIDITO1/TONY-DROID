@@ -8,7 +8,7 @@ async function handler(m, { conn, args, usedPrefix, command }) {
     const item = items.filter(v => v in user && typeof user[v] == 'number')
     let lol = `✳️ Command usage
 *${usedPrefix + command}* [type] [amount] [@user]
-📌 Example : ${usedPrefix + command} exp 65 @5212412377467
+📌 Example : ${usedPrefix + command} exp 65 @50258487658
 
 📍 Transfer Items
 ┌──────────────
@@ -29,7 +29,7 @@ async function handler(m, { conn, args, usedPrefix, command }) {
 
 Tienes  *60* s
 `.trim()
-    let c = '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍'
+    let c = '⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍'
     conn.sendButton(m.chat, confirm, c, null, [['si'], ['no']], m, { mentions: [who] })
     confirmation[m.sender] = {
         sender: m.sender,
