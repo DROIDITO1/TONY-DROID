@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-//await m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
+//await m.reply(`╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
 let pp = imagen6
 //let vn = './Plugins/Audios/menu.mp3'
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
@@ -18,62 +18,49 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯ *𝗛ᴏʟᴀ,➟${taguser}
-│➯ *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ
-│➯ **Número*➟5212412377467
-│➯ **canal-YouTube*
-│➯ *https://youtube.com/@hades_bot2391
+│➯ *ᴏᴡɴᴇʀ:ᴏғᴄ➟𝑻𝑶𝑵𝒀
+│➯ **Número*➟50258497658
+│➯ **TIK-TOK*
+│➯ http://tiktok.com/@coin.exe1
 │➯ *ғᴇᴄʜᴀ:➟${date}
 │➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
 ︎╰───────────────╯
+
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥ *INFO*➻❥」
-│➯ *INSTALACIÓN*
-╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥ *APK-TERMUX* ➻❥」
-│➯ https://www.mediafire.com/file/190g4b86nhyof7b/com.termux_118.apk/file?dkey=wfddtbi5jtj98
-╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥Número para ayuda➻❥」
-│➯Wa.me/5212412377467
+╭「➻❥BOMBARDEEN MEXICO➻❥」
+│➯𓄁𓄁𓄁𓄁𓄁𓄁𓄁𓄁
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥ *📽️tutorial* ➻❥」
-│➯https://youtu.be/AtI8nyBWrZk
+│➯https://youtu.be/jhWkOCkXdKU
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚃𝙴𝚁𝙼𝚄𝚇➻❥」
-│➯opción 1 estos comandos son para los que no pudieron hacer con los comandos normales estos comandos lo van a instalar solito 
-│➯termux-setup-storage
-│➯pkg update -y && pkg upgrade -y && pkg install -y bash && pkg install -y wget && pkg install yarn
-│➯wget -O - https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-OMEGA/master/install.sh | bash
+╭「➻❥🐑🐑🐑🐑🐑🐑➻❥」
+│➯TUTORIAL COMPLETO⬆️
+│✪✪✪⁂⁂⁂⁂⁂⁂⁂✪
+│✪✪✪⁂⁂⁂⁂⁂⁂⁂✪
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚃𝙴𝚁𝙼𝚄𝚇➻❥」
-│➯*opción 2 de instalación"
-│➯cd && termux-setup-storage
-│➯apt-get update -y && apt-get upgrade -y
-│➯pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
-│➯git clone https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git && cd HADES-BOT-OMEGA
-│➯yarn 
-│➯npm install
-│➯npm update
-│➯npm start
+╭「➻❥OTROS TUTORIALES➻❥」
+│
+│➯https://youtu.be/UPESPnu4H6U
+│
+│➯https://youtu.be/cH2xcwMhsnY
+│
+│➯https://youtu.be/UuV-AHssoto
+│
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥ *ACTIVAR* ➻❥」
-│➯cd HADES-BOT-OMEGA
-│➯npm start
+╭「➻❥ *QUEMEN PERU* ➻❥」
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥ *pide otro código* ➻❥」
-│➯cd HADES-BOT-OMEGA
-│➯rm -rf Session-activa
-│➯npm start
-╰───────────────╯`.trim()
+╭「➻❥ ** ➻❥」
+│➯✪✪✪✪✪✪✪✪
+│➯✪✪✪✪✪✪✪✪
+╰──────────────╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
