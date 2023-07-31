@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, isMods, isOwner, isPrems }) => {
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
 let [_, code] = link.match(linkRegex) || []
 
-if (!code) throw '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] ERROR VUELVA A INTENTARLO VERIFIQUES QUE SU ENLACE NO ESTÉ VENCIDO UN EJEMPLO\n/join https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] ERROR TRY AGAIN CHECK THAT YOUR LINK IS NOT EXPIRED AN EXAMPLE\n/join https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf'
+if (!code) throw '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] ERROR VUELVA A INTENTARLO VERIFIQUES QUE SU ENLACE NO ESTÉ VENCIDO UN EJEMPLO\n/join https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] ERROR TRY AGAIN CHECK THAT YOUR LINK IS NOT EXPIRED AN EXAMPLE\n/join https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L'
 
 if ( isPrems || isMods || isOwner || m.fromMe) {
 let res = await conn.groupAcceptInvite(code)
