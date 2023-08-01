@@ -39,7 +39,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L',
+'mediaUrl': 'https://chat.whatsapp.com/D7hTCCfWwRkHZpu41ZUWf0',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
