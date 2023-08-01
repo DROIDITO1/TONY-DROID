@@ -30,7 +30,7 @@ let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「❥🧿 *Grupos y cuentas*🧿 ❥」
 │➯🧿 *𝐃𝐑𝐎𝐈𝐃*
-│➯🧿 https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L
+│➯🧿 https://chat.whatsapp.com/D7hTCCfWwRkHZpu41ZUWf0
 │➯🧿 *𝐃𝐑𝐎𝐈𝐃2*
 │➯🧿 https://chat.whatsapp.com/FkGUlavMirAGGaqC9ATugV
 
