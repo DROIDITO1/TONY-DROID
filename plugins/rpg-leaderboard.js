@@ -8,7 +8,7 @@ let usersExp = sortedExp.map(enumGetKey)
 let usersLim = sortedLim.map(enumGetKey)
 let usersLevel = sortedLevel.map(enumGetKey)
 let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 5)) : Math.min(5, sortedExp.length)
-let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let text = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 *< TABLA DE CLASIFICACION />*
 ╰───────────────╯
 ╭「➻❥ *TOP ${len} XP* ➻❥」
