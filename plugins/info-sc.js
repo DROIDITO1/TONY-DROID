@@ -1,9 +1,9 @@
 let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let text = `*https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L*`
+let text = `*https://chat.whatsapp.com/Iuf3eJvMHF5JjkzOzwZbvY*`
 let buttonMessage= {
-'document': { url: `https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L` },
+'document': { url: `https://chat.whatsapp.com/D7hTCCfWwRkHZpu41ZUWf0` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,
@@ -12,7 +12,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L',
+'mediaUrl': 'https://chat.whatsapp.com/Iuf3eJvMHF5JjkzOzwZbvY',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
