@@ -12,7 +12,7 @@ let handler = async (m, { conn, args }) => {
   let waktu = clockString(`${premTime - new Date() * 1} `)
   let sortedP = user.map(toNumber('premiumTime')).sort(sort('premiumTime'))
   let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedP.length)
-  await conn.reply(m.chat, `╭─────°.♡.°‧─────\n│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍ \n│🌀ᴜsᴜᴀʀɪᴏs ᴘʀᴇᴍɪᴜᴍ\n│*𝙉𝙊𝙈𝘽𝙍𝙀 : 𝙐𝙎𝙀𝙍*@${toUser}\n│${prem ? `✅ ${clockString (usuario - new Date() * 1)}\n│𝘿𝙄𝙎𝙁𝙍𝙐𝙏𝘼𝙍 𝙋𝙍𝙀𝙈𝙄𝙐𝙈` : '✢ *𝙏𝙄𝙀𝙈𝙋𝙊 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 | 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝙏𝙄𝙈𝙀*\n│*🚫 𝘾𝘼𝘿𝙐𝘾𝘼𝘿𝙊 : 𝙏𝙄𝙈𝙀𝘿 𝙊𝙐𝙏*\n│✢ 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 𝙋𝘼𝙎𝙀 𝙋𝙍𝙀𝙈𝙄𝙐𝙈:\n│(#pase premium)'}\n╰─────°.♡.°‧─────
+  await conn.reply(m.chat, `╭─────°.♡.°‧─────\n│⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍ \n│🌀ᴜsᴜᴀʀɪᴏs ᴘʀᴇᴍɪᴜᴍ\n│*𝙉𝙊𝙈𝘽𝙍𝙀 : 𝙐𝙎𝙀𝙍*@${toUser}\n│${prem ? `✅ ${clockString (usuario - new Date() * 1)}\n│𝘿𝙄𝙎𝙁𝙍𝙐𝙏𝘼𝙍 𝙋𝙍𝙀𝙈𝙄𝙐𝙈` : '✢ *𝙏𝙄𝙀𝙈𝙋𝙊 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 | 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝙏𝙄𝙈𝙀*\n│*🚫 𝘾𝘼𝘿𝙐𝘾𝘼𝘿𝙊 : 𝙏𝙄𝙈𝙀𝘿 𝙊𝙐𝙏*\n│✢ 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 𝙋𝘼𝙎𝙀 𝙋𝙍𝙀𝙈𝙄𝙐𝙈:\n│(#pase premium)'}\n╰─────°.♡.°‧─────
 
 ╭─────°.♡.°‧─────
 │🌀ᴜsᴜᴀʀɪᴏs ᴘʀᴇᴍɪᴜᴍ
