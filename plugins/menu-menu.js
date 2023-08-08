@@ -46,11 +46,9 @@ let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯🪴 *.animes [imagenes]*
 │➯🍁 *.grupos*
 │➯🫅🏻 *.owner [contactos]*
-│➯🔞 *.labiblia [+18]*
 │➯🆙 *.enable [comandos para el owner]*
-│➯💥 *.instalarbot DROID*
 │➯🏓 *.logos*
-│➯♻️ *.tagall.
+│➯♻️ *.tagall (etiquetas a todo el grupo)
 │➯♻️ *.comangrupos*
 │➯💠 *.infogrupo*
 │➯🛒 *.shop tienda*
