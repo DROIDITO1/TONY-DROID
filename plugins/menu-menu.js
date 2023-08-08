@@ -249,38 +249,8 @@ let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🧨 *Logos* 🧧❥」
-│➯🧨 *.blackpink <texto>*
-│➯🧨 *.bloodfrosted <texto>*
-│➯🧨 *.bokelog <texto>*
-│➯🧨 *.box3d <texto>*
-│➯🧨 *.breakwall  <texto>*
-│➯🧨 *.cloud <texto>*
-│➯🧨 *.deluxesilver <texto>*
-│➯🧨 *.futureneon <texto>*
-│➯🧨 *.halloween <texto>*
-│➯🧨 *.icecold <texto>*
-│➯🧨 *.impressiveglitch <texto>*
-│➯🧨 *.jokerlogo <texto>*
-│➯🧨 *.logolol <texto>*
-│➯🧨 *.luxurylog <texto>*
-│➯🧨 *.holographic <texto>*
-│➯🧨 *.magma <texto>*
-│➯🧨 *.metaldark <texto>*
-│➯🧨 *.minion <texto>*
-│➯🧨 *.natureleaves <texto>*
-│➯🧨 *.neon <texto>*
-│➯🧨 *.neonlight <texto>*
-│➯🧨 *.newyearcard <texto>*
-│➯🧨 *.roadwarning <texto>*
-│➯🧨 *.sandengraved <texto>*
-│➯🧨 *.sandsummer <texto>*
-│➯🧨 *.sparkle <texto>*
-│➯🧨 *.strawberry <texto>*
-│➯🧨 *.text1917 <texto>*
-│➯🧨 *.thunder <texto>*
-│➯🧨 *.toxic <texto>*
-│➯🧨 *.watercolor <texto>*
-│➯🧨 *.wonderfulgraffiti <texto>*
+│LOGOS?
+│NO HAY COMANDOS PARA CREADOR LOGOS POR EL MOMENTO 
 ╰───────────────╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
