@@ -16,7 +16,7 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
   if (isClose === undefined) {
 	  let caption = `------------------------------------------------------------------------------------------------------------
 𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃
-*[❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾!!*
+*[❗] FORMATO INCORRECTO!!*
 ✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾✨ 
 ${usedPrefix + command} open 1*
 ${usedPrefix + command} close 1*
