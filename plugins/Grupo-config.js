@@ -10,8 +10,8 @@ let isClose = { // Switch Case Like :v
 if (isClose === undefined)
 throw `------------------------------------------------------------------------------------------------------------
 𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃
-*[❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾!!*
-✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾✨ 
+*[❗] FORMATO INRONEO!!*
+✨ejemplo✨ 
 ${usedPrefix + command} abrir*
 ${usedPrefix + command} cerrar*
 
