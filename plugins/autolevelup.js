@@ -10,7 +10,7 @@ let before = user.level * 1
 while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
  if (before !== user.level) {
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-m.reply(`╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」\n│➯ *𝗛ᴏʟᴀ,➟${taguser} \n│➯ 🥳 ғᴇʟɪᴄɪᴅᴀᴅᴇs ʜᴀ sᴜʙɪᴅᴏ ᴅᴇ ɴɪᴠᴇʟ\n│➯🔸ɴɪᴠᴇʟ ᴀɴᴛᴇʀɪᴏʀ: ${before} \n│➯ ⬆️ɴɪᴠᴇʟ ᴀᴄᴛᴜᴀʟ: ${user.level} \n│➯ ⚔️ʀᴀɴɢᴏ: ${user.role} \n│➯ 📅ғᴇᴄʜᴀ: ${new Date().toLocaleString('id-ID')} \n╰───────────────╯`.trim()) 
+m.reply(`╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」\n│➯ *𝗛ᴏʟᴀ,➟${taguser} \n│➯ 🥳 FELICIDADES HA SUBIDO DE NIVEL\n│➯🔸nivel anterior: ${before} \n│➯ ⬆️nivel actual: ${user.level} \n│➯ ⚔️ʀᴀɴɢᴏ: ${user.role} \n│➯ 📅ғᴇᴄʜᴀ: ${new Date().toLocaleString('id-ID')} \n╰───────────────╯`.trim()) 
 }}
 
  
