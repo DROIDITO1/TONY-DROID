@@ -20,11 +20,11 @@ let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯ *✳️️Nivel:* ${level}
 │➯ *🧿Experiencia:* ${exp}
 │➯ *💎Diamantes:* ${limit} 𝚄𝚂𝙾𝚂
-│➯ *👾Hades-Coins:* ${money}
+│➯ *👾droid-coins:* ${money}
 │➯ *💵dolares:* ${joincount}
-│➯ *💥𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾:* ${registered ? 'Si': 'No'}
-│➯ *✔️𝙿𝚁𝙴𝙼𝙸𝚄𝙼:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
-│➯ *📝𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
+│➯ *💥registrado:* ${registered ? 'Si': 'No'}
+│➯ *✔️premium:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
+│➯ *📝NÚMERO DE SERIE:* 
 │➯ *${sn}*
 ╰───────────────╯`
 conn.sendMessage(m.chat, { image: { url: pp }, caption: str }, { quoted: m })
