@@ -1,4 +1,3 @@
-//test
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 import './config.js';
 import './api.js';
@@ -111,7 +110,7 @@ return { conversation: "hello, i'm OFC-YOVANI" }},
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['DROID-8-MD','Safari','9.7.0'],
+browser: ['DROID-8-MD,'Safari','9.7.0'],
 version,
 defaultQueryTimeoutMs: undefined    
 }
@@ -122,29 +121,11 @@ conn.isInit = false
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
-if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "jadibts"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
+if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp'], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
 }, 30 * 1000)}
 
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
 
-   
-     /* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            */
-   
-   /* Yo tambien se hacer momazos Aiden... 
-      ahi te va el ajuste de los borrados 
-      inteligentes de las sesiones y de los sub-bot  
-      By (Rey Endymion 👺👍🏼) */
-/*ninguno es mejor que tilin god 
-atte: sk1d*/
-       
 function clearTmp() {
 const tmp = [tmpdir(), join(__dirname, './tmp')]
 const filename = []
@@ -165,27 +146,10 @@ function purgeSession() {
     unlinkSync(`./Session-activa/${files}`)
 })
 
-}  
-function purgeSessionSB() {
-let listaDirectorios = readdirSync('./jadibts/');
-//console.log(listaDirectorios)
-      let SBprekey = []
-listaDirectorios.forEach(filesInDir => {
-    let directorio = readdirSync(`./jadibts/${filesInDir}`)
-    //console.log(directorio)
-    let DSBPreKeys = directorio.filter(fileInDir => {
-    return fileInDir.startsWith('pre-key-')
-    })
-    SBprekey = [...SBprekey, ...DSBPreKeys]
-    DSBPreKeys.forEach(fileInDir => {
-        unlinkSync(`./jadibts/${filesInDir}/${fileInDir}`) 
-    })
-    })
-    
 }
 
 function purgeOldFiles() {
-const directories = ['./Session-activa/', './jadibts/']
+const directories = ['./Session-activa/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000) 
 directories.forEach(dir => {
     readdirSync(dir, (err, files) => {
@@ -223,6 +187,8 @@ console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 
 }
 if (connection == 'open') {
 console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))}
+await conn.sendMessage(`5212412377467@s.whatsapp.net`, {text: `• *👋 HOLA YOVANI  SE DETECTO QUE  ESTE NÚMERO ES UN NUEVO BOT ACTIVO🤖*\n\n• *🫅🏻AQUÍ UNA PEQUEÑA RECOMENDACIÓN QUE RECOMIENDA EL CREADOR DEL BOT🪀*\n\n• *📌SIGUE EL MISMO PROCEDIMIENTO Y ACTIVA LOS COMANDOS SIGUIENTES PARA EVITAR PROBLEMAS DE SPAM⚠️*\n\n• *📌OPCIÓN 1*\n• */enable antispam*\n• *📌OPCIÓN 2*\n• */enable pconly*\n• *📌OPCIÓN 3*\n• */enable antiprivado*\n *🔖EN CASO DE QUE SIGAS TENIENDO PROBLEMAS PUEDES CONSULTARMELO O DIRECTAMENTE PUEDES ENTRAR AL GRUPO DE SOPORTE📍 PARA RECIBIR AYUDA Y APOYO🤝*\n\n• *🥳Y MUCHAS GRACIAS POR SER UN MIEMBRO🗣️ DE NUESTRA COMUNIDAD GRACIAS POR REFERENCIA🪴 DISFRUTA DE HADES-BOT✨*\n\n• *🌅QUETENGAS UN EXCELENTE DÍA O TARDE O NOCHE🌃*\n\n• *🫅🏻ATENTAMENTE=YOVANI*\n\n• *📌GRUPO DE SOPORTE🤖*\n• https://chat.whatsapp.com/Jhs2WrdiNzY3CML7shPwot`}, {quoted: ''})
+
 if (connection == 'close') {
 console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`))}
 }
@@ -255,8 +221,8 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '-------------------------------------------------\n⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍\n│▢๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @user\n│▢♦️𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳@\n│▢🤴ᩭ✎𝙽Ú𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁\n│▢📔ᩭ✎http://wa.me/50258487658\n│▢📚ᩭ✎𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾 𝙿𝚄𝙴𝙳𝙴𝚂 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁\n│▢🍀ᩭ✎𝙰𝙼𝙸𝚂𝚃𝙰𝙳𝙴𝚂\n│▢🤝ᩭ✎𝙰𝙼𝙸𝙶𝙾𝚂\n│▢📚ᩭ✎𝙳𝙴𝚂𝙼𝙰𝙳𝚁𝙴\n│▢😇ᩭ✎𝙲𝙾𝚃𝙾𝚁𝚁𝙴𝙾 𝚈 𝙼Á𝚂\n│▢⁉️ᩭ✎𝙰𝚅𝙸𝚂𝙾 𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃𝙴:\n𝙿𝚘𝚛 𝚏𝚊𝚟𝚘𝚛 𝙻𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚎𝚟𝚒𝚝𝚎𝚜 𝚜𝚎𝚛 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚢 𝚎𝚟𝚒𝚝𝚎𝚜 𝚝𝚎𝚗𝚎𝚛 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚊𝚜 𝚌𝚘𝚗 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚍𝚎𝚕 𝚐𝚛𝚞\n@desc\n🌱𝐎𝐅𝐂 𝐓𝐎𝐍𝐘\n-------------------------------------------------'
-conn.bye = '-------------------------------------------------\n@user\n𝐒𝐚𝐥𝐢ó 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐧𝐢 𝐦𝐨𝐝𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐯𝐚𝐲𝐚 𝐛𝐢𝐞𝐧 𝐇𝐚𝐬𝐭𝐚 𝐥𝐚 𝐩𝐫ó𝐱𝐢𝐦𝐚 𝐪𝐮𝐞 𝐃𝐢𝐨𝐬 𝐭𝐞 𝐛𝐞𝐧𝐝𝐢𝐠𝐚🌱\n\n *HE LEFT THE GROUP NO WAY THAT YOU GO WELL UNTIL THE NEXT TIME GOD BLESS YOU*\n𝐎𝐅𝐂 𝐓𝐎𝐍𝐘☘\n-------------------------------------------------'
+conn.welcome = '-------------------------------------------------\n⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍\n│▢๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @user\n│▢♦️𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳@\n│▢🤴ᩭ✎𝙽Ú𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁\n│▢📔ᩭ✎http://wa.me/5212412377467\n│▢📚ᩭ✎𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾 𝙿𝚄𝙴𝙳𝙴𝚂 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁\n│▢🍀ᩭ✎𝙰𝙼𝙸𝚂𝚃𝙰𝙳𝙴𝚂\n│▢🤝ᩭ✎𝙰𝙼𝙸𝙶𝙾𝚂\n│▢📚ᩭ✎𝙳𝙴𝚂𝙼𝙰𝙳𝚁𝙴\n│▢😇ᩭ✎𝙲𝙾𝚃𝙾𝚁𝚁𝙴𝙾 𝚈 𝙼Á𝚂\n│▢⁉️ᩭ✎𝙰𝚅𝙸𝚂𝙾 𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃𝙴:\n𝙿𝚘𝚛 𝚏𝚊𝚟𝚘𝚛 𝙻𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚎𝚟𝚒𝚝𝚎𝚜 𝚜𝚎𝚛 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚢 𝚎𝚟𝚒𝚝𝚎𝚜 𝚝𝚎𝚗𝚎𝚛 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚊𝚜 𝚌𝚘𝚗 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚍𝚎𝚕 𝚐𝚛𝚞\n@desc\n🌱𝐎𝐅𝐂 𝐘𝐎𝐕𝐀𝐍𝐈\n-------------------------------------------------'
+conn.bye = '-------------------------------------------------\n@user\n𝐒𝐚𝐥𝐢ó 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐧𝐢 𝐦𝐨𝐝𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐯𝐚𝐲𝐚 𝐛𝐢𝐞𝐧 𝐇𝐚𝐬𝐭𝐚 𝐥𝐚 𝐩𝐫ó𝐱𝐢𝐦𝐚 𝐪𝐮𝐞 𝐃𝐢𝐨𝐬 𝐭𝐞 𝐛𝐞𝐧𝐝𝐢𝐠𝐚🌱\n\n *HE LEFT THE GROUP NO WAY THAT YOU GO WELL UNTIL THE NEXT TIME GOD BLESS YOU*\n𝐎𝐅𝐂 𝐘𝐎𝐕𝐀𝐍𝐈☘\n-------------------------------------------------'
 conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂\n\n*ADMINS GROUP JOINS!!*'
 conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!\n\n*ABANDONED THE ADMIN GROUP*'
 conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n *GROUP DESCRIPTION HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
@@ -291,36 +257,6 @@ conn.ev.on('creds.update', conn.credsUpdate)
 isInit = false
 return true
 }
-
-/*
-
-const pluginFolder = join(__dirname, './plugins');
-const pluginFilter = filename => /\.js$/.test(filename);
-global.plugins = {};
-
-async function filesInit(folder) {
-  for (let filename of readdirSync(folder).filter(pluginFilter)) {
-    try {
-      let file = join(folder, filename);
-      const module = await import(file);
-      global.plugins[file] = module.default || module;
-    } catch (e) {
-      console.error(e);
-      delete global.plugins[filename];
-    }
-  }
-
-  for (let subfolder of readdirSync(folder)) {
-    const subfolderPath = join(folder, subfolder);
-    if (statSync(subfolderPath).isDirectory()) {
-      await filesInit(subfolderPath);
-    }
-  }
-}
-
-await filesInit(pluginFolder).then(_ => Object.keys(global.plugins)).catch(console.error);
-
-*/
 
 const pluginFolder = global.__dirname(join(__dirname, './plugins/index'))
 const pluginFilter = filename => /\.js$/.test(filename)
@@ -404,4 +340,4 @@ console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES
 }, 1000 * 60 * 60)
 _quickTest()
 .then(() => conn.logger.info(`Ƈᴀʀɢᴀɴᴅᴏ．．．\n`))
-.catch(console.error)
+.catch(console.error) 
