@@ -3,7 +3,7 @@ let handler = async (m, { conn, command, args }) => {
 const fetch = (await import('node-fetch')).default
 let full = /f$/i.test(command)
 let text = args.join` `
-if (!text) return conn.reply(m.chat, '*[❗]ɪɴɢʀᴇsᴀ ᴇʟ ɴᴏᴍʙʀᴇ ǫᴜᴇ ǫᴜɪᴇʀᴇs ʙᴜsᴄᴀʀ *\n\n\n*[❗]ENTER THE NAME YOU WANT TO SEARCH*', m)
+if (!text) return conn.reply(m.chat, '*¿QUE QUIERES QUE BUSQUE?*\n\n\n*👨🏻‍💻*', m)
 let url = 'https://google.com/search?q=' + encodeURIComponent(text)
 let search = await googleIt(text)
 let msg = search.articles.map(({
