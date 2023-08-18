@@ -21,14 +21,12 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
-│➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟𝑻𝑶𝑵𝒀*
-│➯🧿 *Número*➟50258487658*
-│➯📽️ *TIK-TOK*
-│➯🖇️ *http://tiktok.com/@coin.exe1*
-│➯📅 *ғᴇᴄʜᴀ:➟${date}*
-│➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
-│➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
+│➯✨ *HOLA,➟${taguser}*
+│*BIENVENID@ AL MENU*
+│*PUEDES SEGUIRNOS EN TIK-TOK*
+│*http://tiktok.com/@coin.exe1*
+│*CON ESO YA ESTARÁS APOYANDO* 
+│
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *Estadísticas* ➻❥」
