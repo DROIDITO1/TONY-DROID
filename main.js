@@ -173,7 +173,6 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
  console.log(chalk.yellow('✔️Escanea este codigo QR, el codigo QR expira en 60 segundos.✔️')) 
  } 
  if (connection == 'open') { 
- await conn.groupAcceptInvite('BgyxmpSY2VYE3MT0UbLAgf') 
  console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))} 
  if (connection == 'close') { 
  console.log(chalk.yellow(`✔️Conexion cerrada, por favor borre la carpeta\n ${global.authFile} y reescanee el codigo QR✔️`))} 
