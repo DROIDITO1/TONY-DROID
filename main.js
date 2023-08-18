@@ -207,7 +207,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
  conn.ev.off('creds.update', conn.credsUpdate) 
  } 
   
- conn.welcome = '╭─────°.♡.°‧─────\n│⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍\n๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @subject\n💖 BIENVENID@\n│🤴ᩭ✎TIK-TOK\n│📔ᩭ✎http://tiktok.com/@coin.exe1\n│📚ᩭ✎EN ÉSTE GRUPO PUEDES ENCONTRAR\n│🍀ᩭ✎AMISTADES\n│🤝ᩭ✎AMIGOS\n│❤️📚ᩭ✎DESMADRE\n│😇ᩭ✎COTORREO Y MAS\n│⁉️ᩭ✎AVISO IMPORTANTE:\nPOR LEE LAS REGLAS DEL GRUPO PARA EVITAR SER ELIMINADO\n│@desc\n│◦➛🌱OFC TONY\n╰────────────┈⊷' 
+ conn.welcome = '╭─────°.♡.°‧─────\n│⫷᭄DROID-8-MD﹏✍\n๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @subject\n💖 BIENVENID@\n│🤴ᩭ✎TIK-TOK\n│📔ᩭ✎http://tiktok.com/@coin.exe1\n│📚ᩭ✎EN ÉSTE GRUPO PUEDES ENCONTRAR\n│🍀ᩭ✎AMISTADES\n│🤝ᩭ✎AMIGOS\n│❤️📚ᩭ✎DESMADRE\n│😇ᩭ✎COTORREO Y MAS\n│⁉️ᩭ✎AVISO IMPORTANTE:\nPOR LEE LAS REGLAS DEL GRUPO PARA EVITAR SER ELIMINADO\n│@desc\n│◦➛🌱OFC TONY\n╰────────────┈⊷' 
  conn.bye = '╭─────°.♡.°‧─────\n│@user\n𝐒𝐚𝐥𝐢ó 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐧𝐢 𝐦𝐨𝐝𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐯𝐚𝐲𝐚 𝐛𝐢𝐞𝐧 𝐇𝐚𝐬𝐭𝐚 𝐥𝐚 𝐩𝐫ó𝐱𝐢𝐦𝐚 𝐪𝐮𝐞 𝐃𝐢𝐨𝐬 𝐭𝐞 𝐛𝐞𝐧𝐝𝐢𝐠𝐚\n│🌱OFC TONY☘\n╰────────────┈⊷️' 
  conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂!!*' 
  conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*' 
