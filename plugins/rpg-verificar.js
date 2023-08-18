@@ -1,1 +1,42 @@
-function _0x5de4(_0x23be5a,_0x566a53){const _0x51f211=_0x51f2();return _0x5de4=function(_0x5de4e3,_0x200846){_0x5de4e3=_0x5de4e3-0x17a;let _0x4e5b8c=_0x51f211[_0x5de4e3];return _0x4e5b8c;},_0x5de4(_0x23be5a,_0x566a53);}const _0x22148e=_0x5de4;(function(_0x112ae2,_0x28f30d){const _0x4cc360=_0x5de4,_0xc4d5be=_0x112ae2();while(!![]){try{const _0x1f606c=parseInt(_0x4cc360(0x186))/0x1*(parseInt(_0x4cc360(0x18e))/0x2)+parseInt(_0x4cc360(0x182))/0x3*(parseInt(_0x4cc360(0x1a4))/0x4)+parseInt(_0x4cc360(0x17a))/0x5*(-parseInt(_0x4cc360(0x188))/0x6)+-parseInt(_0x4cc360(0x198))/0x7*(-parseInt(_0x4cc360(0x19e))/0x8)+parseInt(_0x4cc360(0x19b))/0x9+-parseInt(_0x4cc360(0x196))/0xa*(parseInt(_0x4cc360(0x189))/0xb)+parseInt(_0x4cc360(0x17d))/0xc;if(_0x1f606c===_0x28f30d)break;else _0xc4d5be['push'](_0xc4d5be['shift']());}catch(_0x3e20c1){_0xc4d5be['push'](_0xc4d5be['shift']());}}}(_0x51f2,0x62e23));import{createHash}from'crypto';function _0x51f2(){const _0x1b371d=['4698162hSsGxD','🧑🏻‍💻\x20El\x20nombre\x20no\x20puede\x20estar\x20vacío','map','1214392XsvXvU','update','age','length','\x0a┃\x20Edad\x20:\x20','getName','4lbNawz','5zeduTf','registered','👼🏻\x20Hay\x20un\x20bebé\x20en\x20el\x20grupo\x20jajaja\x20','1476252ahnNCB','reg','\x20años\x0a┃\x20Numero\x20de\x20serie\x20:\x0a┃','users','help','842976WgVNuB','md5','register','trim','4LEgWuu','digest','1650378iRKvKn','1420166nTpGPO','match','registrar','\x20nombre.edad\x0a👉🏻\x20Ejemplo\x20:\x20','regTime','59342XoRyVU','📵️\x20Formato\x20incorrecto\x0a\x0a\x20🧑🏻‍💻\x20Uso\x20del\x20comamdo:\x20','reply','🧑🏻‍💻\x20La\x20edad\x20no\x20puede\x20estar\x20vacía','data','sender','🧑🏻‍💻\x20Ya\x20estás\x20registrado\x0a\x0a¿Quiere\x20volver\x20a\x20registrarse?\x0a\x0a\x20👉🏻\x20Use\x20este\x20comando\x20para\x20eliminar\x20su\x20registro\x20\x0a','command','40CBCifM','name','7QrUsGJ','\x0a╭⋆┈⋆┈⋆⊰.✩.⊱⋆┈⋆┈⋆╮\x0a╽\x20❮❮❮\x20REGISTRO\x20❯❯❯\x0a├⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆\x0a┃\x20Nombre:\x20','.16'];_0x51f2=function(){return _0x1b371d;};return _0x51f2();}let Reg=/\|?(.*)([.|] *?)([0-9]*)$/i,handler=async function(_0x47660e,{conn:_0x564a1a,text:_0x55448f,usedPrefix:_0x2c1656,command:_0x1aba05}){const _0x567ce4=_0x5de4;let _0x598904=global['db'][_0x567ce4(0x192)][_0x567ce4(0x180)][_0x47660e[_0x567ce4(0x193)]],_0x413a88=_0x564a1a[_0x567ce4(0x1a3)](_0x47660e['sender']);if(_0x598904[_0x567ce4(0x17b)]===!![])throw _0x567ce4(0x194)+_0x2c1656+'unreg\x20<Número\x20de\x20serie>';if(!Reg['test'](_0x55448f))throw _0x567ce4(0x18f)+(_0x2c1656+_0x1aba05)+_0x567ce4(0x18c)+(_0x2c1656+_0x1aba05)+'\x20'+_0x413a88+_0x567ce4(0x19a);let [_0x530801,_0x4ac4f7,_0x1785f7,_0x559268]=_0x55448f[_0x567ce4(0x18a)](Reg);if(!_0x4ac4f7)throw _0x567ce4(0x19c);if(!_0x559268)throw _0x567ce4(0x191);if(_0x4ac4f7[_0x567ce4(0x1a1)]>=0x1e)throw'🧑🏻‍💻\x20El\x20nombre\x20es\x20demasiado\x20largo';_0x559268=parseInt(_0x559268);if(_0x559268>0x64)throw'👴🏻\x20Jajaja\x20quiere\x20jugar\x20al\x20bot\x20abuelo\x20?\x20';if(_0x559268<0x5)throw _0x567ce4(0x17c);_0x598904[_0x567ce4(0x197)]=_0x4ac4f7[_0x567ce4(0x185)](),_0x598904[_0x567ce4(0x1a0)]=_0x559268,_0x598904[_0x567ce4(0x18d)]=+new Date(),_0x598904['registered']=!![];let _0x26ca9b=createHash(_0x567ce4(0x183))[_0x567ce4(0x19f)](_0x47660e[_0x567ce4(0x193)])[_0x567ce4(0x187)]('hex');_0x47660e[_0x567ce4(0x190)]((_0x567ce4(0x199)+_0x4ac4f7+_0x567ce4(0x1a2)+_0x559268+_0x567ce4(0x17f)+_0x26ca9b+'\x0a├⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆\x0a┃\x20'+_0x2c1656+'menu\x20para\x20ver\x20el\x20Menu\x0a╰•⋆҈͜͡.𝐓𝐎𝐍𝐘⋆𝐎𝐅𝐂⋆҈͜͡•╯')[_0x567ce4(0x185)]());};handler[_0x22148e(0x181)]=['reg'][_0x22148e(0x19d)](_0x800db7=>_0x800db7+'\x20<nombre.edad>'),handler['tags']=['rg'],handler[_0x22148e(0x195)]=['verify',_0x22148e(0x17e),_0x22148e(0x184),_0x22148e(0x18b)];export default handler;
+import {createHash} from 'crypto';
+const Reg = /\|?(.*)([.|] *?)([0-9]*)$/i;
+const handler = async function(m, {conn, text, usedPrefix, command}) {
+  const user = global.db.data.users[m.sender];
+  const name2 = conn.getName(m.sender);
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
+  if (user.registered === true) throw `*👨🏻‍💻HOLA YA TE ENCUENTRAS REGISTRADO EN MI BASE DE DATOS, SI DESEAS ELIMINAR TU REGISTRÓ USA EL COMANDO*\n*/unreg <Número de serie>*`;
+  if (!Reg.test(text)) throw `*👨🏻‍💻HOLA TE INFORMO QUE HAS FALLADO CON EL REGISTRÓ✨TE DOY UN ☘️EJEMPLO*\n*/Reg Tony.21*`;
+  let [_, name, splitter, age] = text.match(Reg);
+  if (!name) throw '🍃𝙷𝙾𝙻𝙰 𝚃𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙾 𝚀𝚄𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙽𝙾 𝙿𝚄𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲Í𝙾 𝙴𝙽 𝙴𝙻 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚀𝚄𝙴 𝙿𝙾𝙽𝙴𝚁 𝚃𝚄 𝙽𝙾𝙼𝙱𝚁𝙴🍃';
+  if (!age) throw '*☘️𝙷𝙾𝙻𝙰 𝚃𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙾 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙾 𝚃𝚄 𝙴𝙳𝙰𝙳 𝙴𝙽 𝙴𝙻 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚀𝚄𝙴 𝙿𝙾𝙽𝙴𝚁𝚃𝙴 𝚃𝚄 𝙴𝙳𝙰𝙳🌱*';
+  if (name.length >= 30) throw '*👨🏻‍💻 hijo de puta, pon un nombre más corto*';
+  age = parseInt(age);
+  if (age > 100) throw '*👨🏻‍💻 nose permiten ancianos en el grupo, es más deberían estar muertos, porfavor pon otro edad*';
+  if (age < 5) throw '*eres menor de edad, ve a dormir negr@ pendejo, pon otro edad*';
+  user.name = name.trim();
+  user.age = age;
+  user.regTime = + new Date;
+  user.registered = true;
+  const sn = createHash('md5').update(m.sender).digest('hex');
+  const caption = `📃ᴿᵉᵍⁱˢᵗʳᵒ ᶜᵒᵐᵖˡᵉᵗᵃᵈᵒ ⁱⁿᶠᵒʳᵐᵃᶜⁱóⁿ ᵈᵉˡ ʳᵉᵍⁱˢᵗʳᵒ
+🪪Nombre ${name}
+☃️edad ${age}
+📃Número de serie
+ ${sn}
+
+👨🏻‍💻: REGISTRADO CORRECTAMENTE: /MENU PARA VER EL MENU 
+
+👨🏻‍💻: SI DESEAS CAMBIAR TU REGISTRO ELIMINA TU  NÚMERO DE SERIA: EJEMPLO
+
+🪪/unreg ${sn}
+
+Después te vuelves a registrar😹`;
+  await conn.sendFile(m.chat, pp, 'hades.jpg', caption);
+  
+  global.db.data.users[m.sender].money += 10000;
+  global.db.data.users[m.sender].exp += 10000;
+};
+handler.help = ['verificar'];
+handler.tags = ['xp'];
+handler.command = /^(Reg|reg)$/i;
+export default handler;
