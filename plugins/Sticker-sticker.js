@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || q.mediaType || ''
     if (/webp|image|video/g.test(mime)) {
-      if (/video/g.test(mime)) if ((q.msg || q).seconds > 11) return m.reply('🧑🏻‍💻 Máximo 10 segundos')
+      if (/video/g.test(mime)) if ((q.msg || q).seconds > 11) return m.reply('🧑🏻‍💻 Máximo 7 segundos')
       let img = await q.download?.()
       if (!img) throw `🧑🏻‍💻️ Responde a una imagen o video con${usedPrefix + command}`
       let out
