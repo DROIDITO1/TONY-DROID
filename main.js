@@ -80,7 +80,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
  msgRetryCounterMap, 
  logger: pino({ level: 'silent' }), 
  auth: state, 
- browser: ['THE-HADES-BOT-MD','Safari','9.7.0'], 
+ browser: ['DROID-8-MD,'Safari','9.7.0'], 
  version    
  } 
   
