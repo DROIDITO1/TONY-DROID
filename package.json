@@ -1,7 +1,7 @@
 {
     "name": "DROID-8-MD",
     "version": "1.0.0",
-    "description": "SÍGUE NOS EN TIKTOK",
+    "description": "SÍGUENOS EN TIKTOK",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "tiktok.com/@coin.exe1",
+    "homepage": "http://tiktok.com/@coin.exe1",
     "author": {
         "name": "OFC-TONY"
     },
     "repository": {
         "type": "git",
-        "url": "tiktok.com/@coin.exe1"
+        "url": "http://tiktok.com/@coin.exe1"
     },
     "bugs": {
-        "url": "tiktok.com/@coin.exe1"
+        "url": "http://tiktok.com/@coin.exe1/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
