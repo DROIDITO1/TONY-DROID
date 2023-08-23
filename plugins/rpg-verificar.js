@@ -9,10 +9,10 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '🍃𝙷𝙾𝙻𝙰 𝚃𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙾 𝚀𝚄𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙽𝙾 𝙿𝚄𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲Í𝙾 𝙴𝙽 𝙴𝙻 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚀𝚄𝙴 𝙿𝙾𝙽𝙴𝚁 𝚃𝚄 𝙽𝙾𝙼𝙱𝚁𝙴🍃';
   if (!age) throw '*☘️𝙷𝙾𝙻𝙰 𝚃𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙾 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙾 𝚃𝚄 𝙴𝙳𝙰𝙳 𝙴𝙽 𝙴𝙻 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚀𝚄𝙴 𝙿𝙾𝙽𝙴𝚁𝚃𝙴 𝚃𝚄 𝙴𝙳𝙰𝙳🌱*';
-  if (name.length >= 30) throw '*👨🏻‍💻 hijo de puta, pon un nombre más corto*';
+  if (name.length >= 20) throw '*👨🏻‍💻 hijo de puta, pon un nombre más corto*';
   age = parseInt(age);
-  if (age > 100) throw '*👨🏻‍💻 nose permiten ancianos en el grupo, es más deberían estar muertos, porfavor pon otro edad*';
-  if (age < 5) throw '*eres menor de edad, ve a dormir negr@ pendejo, pon otro edad*';
+  if (age > 70) throw '*👨🏻‍💻 nose permiten ancianos en el grupo, es más deberían estar muertos, porfavor pon otro edad*';
+  if (age < 8) throw '*Traiganle un pañal al bebe,Maldito negro, pon otro edad*';
   user.name = name.trim();
   user.age = age;
   user.regTime = + new Date;
