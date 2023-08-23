@@ -8,7 +8,7 @@ if (isBotAdmin && chat.antiArab) {
 		
 if (m.sender.startsWith('212' || '212')) {
 global.db.data.users[m.sender].banned = true
-m.reply(`*[❗]ʜᴏʟᴀ ᴛᴇ ɪɴғᴏʀᴍᴏ 🌴ǫᴜᴇ ᴇsᴛᴀ ᴘʀᴏʜɪʙɪᴅᴏ ɴᴜᴍᴇʀᴏs ᴠɪʀᴛᴜᴀʟᴇs ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ🍀*\n\n\n*[❗] HELLO I INFORM YOU 🌴THAT VIRTUAL NUMBERS ARE PROHIBITED IN THIS GROUP 🍀*`)
+m.reply(`*👨🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
 
 if (m.sender.startsWith('1' || '1')) {
@@ -46,24 +46,39 @@ global.db.data.users[m.sender].banned = true
 m.reply(`*🧑🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
 
-if (m.sender.startsWith('' || '351')) {
+if (m.sender.startsWith('62' || '62')) {
+global.db.data.users[m.sender].banned = true
+m.reply(`*🧑🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
+
+if (m.sender.startsWith('49' || '49')) {
+global.db.data.users[m.sender].banned = true
+m.reply(`*🧑🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
+
+if (m.sender.startsWith('91' || '91')) {
+global.db.data.users[m.sender].banned = true
+m.reply(`*🧑🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
+
+if (m.sender.startsWith('61' || '61')) {
 global.db.data.users[m.sender].banned = true
 m.reply(`*🧑🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
    
 if (m.sender.startsWith('265' || '265')) {
 global.db.data.users[m.sender].banned = true
-m.reply(`*[❗]ʜᴏʟᴀ ᴛᴇ ɪɴғᴏʀᴍᴏ 🌴ǫᴜᴇ ᴇsᴛᴀ ᴘʀᴏʜɪʙɪᴅᴏ ɴᴜᴍᴇʀᴏs ᴠɪʀᴛᴜᴀʟᴇs ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ🍀*\n\n\n*[❗] HELLO I INFORM YOU 🌴THAT VIRTUAL NUMBERS ARE PROHIBITED IN THIS GROUP 🍀*`)
+m.reply(`*🧑🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')} 
 
 if (m.sender.startsWith('972' || '972')) {
 global.db.data.users[m.sender].banned = true
-m.reply(`*[❗]ʜᴏʟᴀ ᴛᴇ ɪɴғᴏʀᴍᴏ 🌴ǫᴜᴇ ᴇsᴛᴀ ᴘʀᴏʜɪʙɪᴅᴏ ɴᴜᴍᴇʀᴏs ᴠɪʀᴛᴜᴀʟᴇs ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ🍀*\n\n\n*[❗] HELLO I INFORM YOU 🌴THAT VIRTUAL NUMBERS ARE PROHIBITED IN THIS GROUP 🍀*`)
+m.reply(`*🧑🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')} 
    
 if (m.sender.startsWith('994' || '994')) {
 global.db.data.users[m.sender].banned = true
-m.reply(`*[❗]ʜᴏʟᴀ ᴛᴇ ɪɴғᴏʀᴍᴏ 🌴ǫᴜᴇ ᴇsᴛᴀ ᴘʀᴏʜɪʙɪᴅᴏ ɴᴜᴍᴇʀᴏs ᴠɪʀᴛᴜᴀʟᴇs ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ🍀*\n\n\n*[❗] HELLO I INFORM YOU 🌴THAT VIRTUAL NUMBERS ARE PROHIBITED IN THIS GROUP 🍀*`)
+m.reply(`*👨🏻‍💻 EN ÉSTE GRUPO NO SE PERMITEN LEGIOVIRGOS NI MUCHO MENOS ÁRABES*\n\n\n*😹*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}    
    
 }}
