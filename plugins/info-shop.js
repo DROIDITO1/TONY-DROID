@@ -39,13 +39,13 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://chat.whatsapp.com/D7hTCCfWwRkHZpu41ZUWf0',
+'mediaUrl': 'https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L' }},
+'sourceUrl': 'https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
