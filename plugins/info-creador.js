@@ -4,9 +4,6 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let text = `╭─「➻❥ *owner* ➻❥」
 │➯ ⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍
 │➯Wa.me/50258487658 (CREADOR)
-│➯Wa.me/50258487658 (CREADOR) 
-│➯Wa.me/50258487658 (CREADOR)
-│➯Wa.me/50258487658 (CREADOR)
 ╰───────────────╯`.trim()   
 let buttonMessage= {
 'document': { url: `https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L` },
