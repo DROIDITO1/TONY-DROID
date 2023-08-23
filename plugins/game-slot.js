@@ -12,7 +12,7 @@ let time = users.lastslot + 10000
 if (new Date - users.lastslot < 10000) throw `*⏳ ESPERA ${msToTime(time - new Date())} PARA VOLVER APOSTAR*`
 if (apuesta < 100) throw '*👨🏻‍💻 el mínimo para apostar es de 100 xp*'
 if (users.exp < apuesta) {
-throw `*👨🏻‍💻 TU EX NO ES SUFICIENTE PARA APOSTAR ESA CANTIDAD, JUEGA OTROS JUEGOS O INTERACTUA CONMIGO PARA GANAR MAS XP*`
+throw `*👨🏻‍💻 TU XP NO ES SUFICIENTE PARA APOSTAR ESA CANTIDAD, JUEGA OTROS JUEGOS O INTERACTUA CONMIGO PARA GANAR MAS XP*`
 }
 let emojis = ["🐋", "🐉", "🕊️"];
 let a = Math.floor(Math.random() * emojis.length);
@@ -41,10 +41,10 @@ if (a == b && b == c) {
 end = `*GANASTE! 🎁 +${apuesta + apuesta} 𝚇𝙿*`
 users.exp += apuesta
 } else if (a == b || a == c || b == c) {
-end = `*🔮 𝙲𝙰𝚂𝙸 𝙻𝙾 𝙻𝙾𝙶𝚁𝙰𝚂!, 𝚂𝙸𝙶𝚄𝙴 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝙽𝙳𝙾*\n*𝚃𝙾𝙼𝙰 +10 XP*`
+end = `*🔮 CASI LO LOGRAS!, SIGUE INTENTANDO*\n*𝚃𝙾𝙼𝙰 +10 XP*`
 users.exp += 10
 } else {
-end = `*❌ 𝙿𝙴𝚁𝙳𝙸𝚂𝚃𝙴 -${apuesta} 𝚇𝙿*`
+end = `*❌ PERDISTE -${apuesta} 𝚇𝙿*`
 users.exp -= apuesta
 }
 users.lastslot = new Date * 1
