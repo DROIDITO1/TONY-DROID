@@ -52,11 +52,11 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.grupos*
 ├➽ *.owner [contactos]*
 ├➽ *.enable [comandos para el owner]*
-├➽ *.tagall (etiquetas a todo el grupo)*
+├➽ *.tagall*
 ├➽ *.comangrupos*
 ├➽ *.infogrupo*
-├➽ *.shop tienda*
-├➽ *.sell tienda*
+├➽ *.shop [tienda]*
+├➽ *.sell [tienda]*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥🌟 *Grupos* 🌟❥」
@@ -68,10 +68,10 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.infogp <info del grupo>*
 ├➽ *.infobot <estado del bot>*
 ├➽ *.hidetag*
-├➽ *.delete elimina mensajes del bot*
+├➽ *.delete*
 ├➽ *.del*
-├➽ *.join*
-├➽ *.link link de tu grupo*
+├➽ *.join* [link del grupo]*
+├➽ *.link [link de tu grupo*
 ├➽ *.advertir/warn @tag*
 ├➽ *.unwarn/delwarn*
 ├➽ *.ban/unban*
@@ -79,18 +79,18 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥💎 *transfer* 💎❥」
-├➽ *.transfer joincount mas <cantidad>*
-├➽ *.transfer limit mas <cantidad>*
-├➽ *.transfer exp mas <cantidad>*
+├➽ *.transferjoincount mas <cantidad>*
+├➽ *.transferlimit mas <cantidad>*
+├➽ *.transferxp mas <cantidad>*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥ *gana&compara* ❥」
-├➽ *.minar gana xp*
-├➽ *.minar2 gana Diamantes*
-├➽ *.minar3 gana Hades-Coins*
-├➽ *.claim reclama tu recompensa diaria exp*
-├➽ *.coffer un cofre de recompensas diarias*
-├➽ *.dinero para ver tus diamantes y dinero*
+├➽ *.minar*
+├➽ *.minar2*
+├➽ *.minar3*
+├➽ *.claim*
+├➽ *.coffer*
+├➽ *.bal* *[todo tu exp/Diamantes y otros]*
 ├➽ *puedes comprar diamantes usando los comandos* 
 ├➽ *.busyall te cobra Hades-Coins*
 ├➽ *.bus <cantidad>* 
@@ -106,21 +106,20 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.añadirdolares @tag <cantidad>*
 ├➽ *.addprem @tag days*
 ╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
+😼᭢━━━━━━━━━᭥😼᭢
 ╭─「❥👾 *Stickers* 🌴❥」
-├➽ *.stiker2 con una imagen o link*
-├➽ *.stiker con una imagen o link*
+├➽ *.stiker/.s
 ├➽ *.wm paquete | nombre*
-├➽ *.sermoverbg imagen sin fondo*
+├➽ *.sermoverbg [imagen sin fondo]*
 ├➽ *.slap*
-├➽ *.scircle sticker circular*
+├➽ *.scircle [sticker circular]*
 ├➽ *.pat*
 ├➽ *.emojimix ☺&😈*
 ├➽ *.dados*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥🤖 *Reportar* 🤖❥」
-├➽ *.reporte comandos en fallos*
+├➽ *.reporte [comandos en fallos]*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥🤣 *Acciones* 😚❥」
@@ -154,7 +153,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.whatmusic responde a una audio*
 ├➽ *.calculadora Ejemplo : .calc 2+2*
 ├➽ *.ssweb link de tu img*
-├➽ *.tts audio google*
+├➽ *.tts [texto a Audio]
 ├➽ *.quemusica resultado*
 ╰───────────────╯
 🧑🏻‍💻᭢━━━━━━━━━᭥🧑🏻‍💻᭢
@@ -165,22 +164,22 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥🎮 *Juegos* 🎮❥」
-├➽ *.love medidor de amor*
-├➽ *.gay2 porcentaje*
-├➽ *.puta porcentaje*
-├➽ *.puto porcentaje*
-├➽ *.pajero porcentaje*
-├➽ *.pajera porcentaje*
-├➽ *.lesbiana porcentaje*
+├➽ *.love [medidor de amor]*
+├➽ *.gay2 [porcentaje]*
+├➽ *.puta [porcentaje]*
+├➽ *.puto [porcentaje]*
+├➽ *.pajero [porcentaje]*
+├➽ *.pajera [porcentaje]*
+├➽ *.lesbiana [porcentaje]*
 ├➽ *.pvp*
 ├➽ *.sopa*
 ├➽ *.juego piedra/papel/tijera*
-├➽ *.reto reto del bot*
+├➽ *.reto [reto del bot]*
 ├➽ *.acertijo*
-├➽ *.verdad verdad del bot*
-├➽ *.formarpareja parejas ramdon*
-├➽ *.slot ruleta*
-├➽ *.piropo piropo del bot*
+├➽ *.verdad [verdad del bot]*
+├➽ *.formarpareja [parejas ramdon]*
+├➽ *.slot [ruleta]*
+├➽ *.piropo [piropo del bot]*
 ├➽ *.casino <apuesta>*
 ├➽ *.meme <meme>*
 ︎╰───────────────╯
@@ -205,8 +204,8 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.fantasmas*
 ├➽ *.invitar*
 ├➽ *.resetlink*
-├➽ *.banchat banea el chat*
-├➽ *.unbanchat desbanea el chat*
+├➽ *.banchat [banea el chat]*
+├➽ *.unbanchat [desbanea el chat]*
 ├➽ *.grupo abrir/cerrar*
 ├➽ *.addcmd*
 ├➽ *.delcmd*
