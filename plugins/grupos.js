@@ -17,21 +17,17 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
+let str = `╭「➻❥DROID-8-MD➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟𝑻𝑶𝑵𝒀*
-│➯🧿 *Número*➟50258487658*
-│➯📽️ *TIK-TOK*
-│➯🖇️ *http://tiktok.com/@coin.exe1*
+│➯🧑🏻‍💻 *CREADOR: TONY*
 │➯📅 *ғᴇᴄʜᴀ:➟${date}*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
 │➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「❥🧿 *Grupos y cuentas*🧿 ❥」
-│➯🧿 *𝐃𝐑𝐎𝐈𝐃*
-│➯🧿 https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP
-│
+│➯🧿 *DROID-8-MD*
+│➯🧿 https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP==
 │➯🔮 *KIKTOK*
 │➯🖇️ http://tiktok.com/@coin.exe1/
 ︎╰───────────────╯`.trim()
