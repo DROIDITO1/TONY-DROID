@@ -20,7 +20,14 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
+let str = `╭「➻❥DROID-8-MD➻❥」
+│➯🐥 *HOLA,➟${taguser}*
+│➯🧑🏻‍💻  DROID *MENU*
+│➯📅 *ғᴇᴄʜᴀ:➟${date}*
+│➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
+│➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
+︎╰───────────────╯
+╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯👨🏻‍💻 *HOLA,➟${taguser}*
 │ *BIENVENID@ AL MENU*
 │ *PUEDES SEGUIRNOS EN TIK-TOK*
@@ -67,6 +74,8 @@ let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 ├➽ *.link link de tu grupo*
 ├➽ *.advertir/warn @tag*
 ├➽ *.unwarn/delwarn*
+├➽ *.ban/unban*
+├➽ *.kick @tag*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥💎 *transfer* 💎❥」
