@@ -9,7 +9,7 @@ if (id in conn.tebaklagu) {
 conn.reply(m.chat, 'Todavía hay canciones sin respuesta en este chat.\n There are still unanswered songs in this chat.', conn.tebaklagu[id][0])
 throw false
 } //5LTV57azwaid7dXfz5fzJu
-let res = await fetchJson(`https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-MD/master/src/hades/tebaklagu.json`)
+let res = await fetchJson(`https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP`)
 let json = res[Math.floor(Math.random() * res.length)]    
 let caption = `
 ADIVINA EL TITULO DE LA CANCION
