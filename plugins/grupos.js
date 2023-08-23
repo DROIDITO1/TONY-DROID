@@ -30,14 +30,8 @@ let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「❥🧿 *Grupos y cuentas*🧿 ❥」
 │➯🧿 *𝐃𝐑𝐎𝐈𝐃*
-│➯🧿 https://chat.whatsapp.com/Iuf3eJvMHF5JjkzOzwZbvY
-│➯🧿 *𝐃𝐑𝐎𝐈𝐃2*
-│➯🧿 https://chat.whatsapp.com/FkGUlavMirAGGaqC9ATugV
-
-│➯📽️ *𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎*
-│➯🖇️ 𝐍𝐎 𝐇𝐀𝐘.𝐗𝐃
-│➯🎋 *INSTAGRAM*
-│➯🖇️ 𝐍𝐎 𝐇𝐀𝐘: 𝐗2
+│➯🧿 https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP
+│
 │➯🔮 *KIKTOK*
 │➯🖇️ http://tiktok.com/@coin.exe1/
 ︎╰───────────────╯`.trim()
