@@ -4,10 +4,9 @@ import ytdl from 'ytdl-core'
 import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-if (!text) throw ` *[❗𝐈𝐍𝐅𝐎❗] NOMBRE DE LA CANCIÓN, POR FAVOR INGRESE EL NOMBRE DE LA CANCIÓNA/TÍTULO* \n\n *—◉ ejemplo:* \n *${usedPrefix + command} Farruko beba* \n\n\n*[❗𝐈𝐍𝐅𝐎❗]MISSING SONG NAME PLEASE ENTER COMMAND PLUS SONG NAME* \n\n *—◉ AN EXAMPLE* \n *${usedPrefix + command} Farruko beba* `
+if (!text) throw ` *👨🏻‍💻 NOMBRE DE LA CANCIÓN, POR FAVOR INGRESE EL NOMBRE DE LA CANCIÓNA/TÍTULO* \n\n *—◉ ejemplo:* \n *${usedPrefix + command} Farruko beba* \n\n\n*👻* \n\n *—◉ 🤓* \n *${usedPrefix + command} Farruko beba* `
 try {
-await m.reply(` *_⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
-await m.reply(`⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
+await m.reply(` *_👨🏻‍💻 ESPERA MIENTRAS LE MANDO SU PEDIDO* \n\n *_👻_ `)
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
