@@ -5,7 +5,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   const name2 = conn.getName(m.sender);
   const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
   if (user.registered === true) throw `*👨🏻‍💻HOLA YA TE ENCUENTRAS REGISTRADO EN MI BASE DE DATOS, SI DESEAS ELIMINAR TU REGISTRÓ USA EL COMANDO*\n*/unreg <Número de serie>*`;
-  if (!Reg.test(text)) throw `*👨🏻‍💻HOLA TE INFORMO QUE HAS FALLADO CON EL REGISTRÓ✨TE DOY UN ☘️EJEMPLO*\n*/Reg Tony.21*`;
+  if (!Reg.test(text)) throw `*👨🏻‍💻HOLA TE INFORMO QUE HAS FALLADO CON EL REGISTRÓ: TE DOY UN EJEMPLO*\n*/Reg Tony.21*`;
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '🍃𝙷𝙾𝙻𝙰 𝚃𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙾 𝚀𝚄𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙽𝙾 𝙿𝚄𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲Í𝙾 𝙴𝙽 𝙴𝙻 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚀𝚄𝙴 𝙿𝙾𝙽𝙴𝚁 𝚃𝚄 𝙽𝙾𝙼𝙱𝚁𝙴🍃';
   if (!age) throw '*☘️𝙷𝙾𝙻𝙰 𝚃𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙾 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙾 𝚃𝚄 𝙴𝙳𝙰𝙳 𝙴𝙽 𝙴𝙻 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚃𝙸𝙴𝙽𝙴𝚂 𝚀𝚄𝙴 𝙿𝙾𝙽𝙴𝚁𝚃𝙴 𝚃𝚄 𝙴𝙳𝙰𝙳🌱*';
