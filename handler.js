@@ -1140,7 +1140,7 @@ if (m.text && user.banned && !isROwner) {
     const messageNumber = user.bannedMessageCount + 1;
     const messageText = `❰ ⚠️ ❱ *ESTAS BANEADO/A* ❰ ⚠️ ❱\nAviso ${messageNumber}/3 (${messageNumber} de 3)${user.bannedReason ? `\n*Motivo:* *${user.bannedReason}*` : ''}
 *👉 Puedes contactar a la propietaria del Bot si crees que se trata de un error (TENER PRUEBAS) para tratar el motivo de tú desbaneo*
-👉 wa.me/5212412377467
+👉 wa.me/50258487658
 `.trim();
     
     //m.reply(messageText);
@@ -1222,7 +1222,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `✨ᴴᵒˡᵃ ᵉˢᵗⁱᵐᵃᵈᵒ ˡᵒ ˢⁱᵉⁿᵗᵒ ᵖᵉʳᵒ ᵗᵘˢ 💎ᵈⁱᵃᵐᵃⁿᵗᵉˢ ˢᵉ ᵗᵉ ʰᵃⁿ ᵃᵍᵒᵗᵃᵈᵒ ˢⁱ ᵈᵉˢᵉᵃˢ ˢᵉᵍᵘⁱʳ ᵘˢᵃⁿᵈᵒ ᵉˡ ᵇᵒᵗ ᵖᵘᵉᵈᵉˢ ⁱʳ ᵃ ˡᵃ 🛒ᵗⁱᵉⁿᵈᵃ ᵈᵉ 💎ᵈⁱᵃᵐᵃⁿᵗᵉˢ ᶜᵒⁿ ᵉˡ ᶜᵒᵐᵃⁿᵈᵒ\n🛒/ˢʰᵒᵖ\n\n✨ˢⁱ ᵗᵉ ⁱⁿᵗᵉʳᵉˢᵃ ᶜᵒᵐᵖʳᵃʳ ᵘⁿ ᵖᵉʳᵐⁱᵘᵐ ᵖᵃʳᵃ qᵘᵉ ᵉˡ ᵇᵒᵗ ⁿᵒ ᵗᵉ ᶜᵒᵇʳᵉ 💎ᵈⁱᵃᵐᵃⁿᵗᵉˢ ᵖᵘᵉᵈᵉˢ ⁱʳ ᵃˡ 🪙ᵗⁱᵉⁿᵈᵃ ᶜᵒⁿ ᵉˡ ᶜᵒᵐᵃⁿᵈᵒ\n🛒/ˢᵉˡˡ`, m)
+                    this.reply(m.chat, `🧑🏻‍💻 TUS DIAMANTES SE HAN AGOTADO: USA EL SIGUIENTE COMANDO PARA IR ALA TIENDA\n🛒/shop\n\n✨sell/Si necesitas ayuda puedes usar el comando:.creador\n🕶`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -1379,7 +1379,7 @@ if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 
  let responseb = await this.groupParticipantsUpdate(id, [user], 'remove')
      if (responseb[0].status === "404") return 
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
-this.sendMessage(id, { text: `*[❗] @${user.split('@')[0]} ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ ɴᴏ sᴇ ᴘᴇʀᴍɪᴛᴇɴ ɴᴜᴍᴇʀᴏs ᴀʀᴀʙᴇs ᴏ ʀᴀʀᴏs, ᴘᴏʀ ʟᴏ ϙᴜᴇ sᴇ ᴛᴇ sᴀᴄᴀʀᴀ ᴅᴇʟ ɢʀᴜᴘᴏ*`, mentions: [user] }, { quoted: fkontak2 });          
+this.sendMessage(id, { text: `*[❗] @${user.split('@')[0]} EN ÉSTE GRUPO, NO SE PERMITEN ÁRABES NI MUCHO MENOS LEGIOVIRGOS😹*`, mentions: [user] }, { quoted: fkontak2 });          
 return    
 }    
 			    
@@ -1434,8 +1434,8 @@ export async function callUpdate(callUpdate) {
     let callmsg = await this.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
     //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-   let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍;;;\nFN:⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍\nORG:⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍\nTITLE:\nitem1.TEL;waid=5212412377467:+521 241 237 7467\nitem1.X-ABLabel:⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍\nEND:VCARD`
-    await this.sendMessage(nk.from, { contacts: { displayName: '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍', contacts: [{ vcard }] }}, {quoted: callmsg})
+   let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;⫷᭄©DROID-8-MD﹏✍;;;\nFN:⫷᭄©DROID-8-MD﹏✍\nORG:⫷᭄©DROID-8-MD﹏✍\nTITLE:\nitem1.TEL;waid=50258487658:+50258487658\nitem1.X-ABLabel:⫷᭄©DROID-8-MD﹏✍\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:⫷᭄©DROID-8-MD﹏✍\nEND:VCARD`
+    await this.sendMessage(nk.from, { contacts: { displayName: '⫷᭄©DROID-8-MD﹏✍', contacts: [{ vcard }] }}, {quoted: callmsg})
     await this.updateBlockStatus(nk.from, 'block')
     }
     }
@@ -1472,7 +1472,7 @@ export async function deleteUpdate(message) {
 
 global.dfail = (type, m, conn) => {
     let msg = { 
-       rowner: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️] \nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴱˡ/ᴸᵃ ᴾʳᵒᵖⁱᵉᵗᵃʳⁱᵒ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
+       rowner: '[INFO] \nESTE COMANDO SÓLO PUEDE SER UTILIZADO POR MI CREADOR *TONY*😹',
        owner: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️] \nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴱˡ/ᴸᵃ ᴾʳᵒᵖⁱᵉᵗᵃʳⁱᵒ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
        mods: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴹᵒᵈᵉʳᵃᵈᵒʳᵉˢ ʸ ᴱˡ/ᴸᵃ ᴾʳᵒᵖⁱᵉᵗᵃʳⁱᵒ/ᴬ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
        premium: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴸᵒˢ ᵁˢᵘᵃʳⁱᵒˢ ᴾʳᵉᵐⁱᵘᵐ ʸ ᴱˡ/ᴸᵃ ᴾʳᵒᵖⁱᵉᵗᵃʳⁱᵒ/ᴬ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
@@ -1480,11 +1480,11 @@ global.dfail = (type, m, conn) => {
        private: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴱⁿ ᴱˡ ᶜʰᵃᵗ ᴾʳⁱᵛᵃᵈᵒ ᴰᵉˡ ᴮᵒᵗ',
        admin: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵃʳᵃ ˢᵒˡᵒ ᴬᵈᵐⁱⁿⁱˢᵗʳᵃᵈᵒʳᵉˢ ᴰᵉˡ ᴳʳᵘᵖᵒˢ',
        botAdmin: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴾᵃʳᵃ ᴾᵒᵈᵉʳ ᵁˢᵃʳ ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᴱˢ ᴺᵉᶜᵉˢᵃʳⁱᵒ Qᵘᵉ ᴱˡ ᴮᵒᵗ ˢᵉᵃ ᴬᵈᵐⁱⁿⁱˢᵗʳᵃᵈᵒʳ ʸ ᴬᶜᶜᵉᵈᵉʳ ᴬᵈᵐⁱⁿ ᴬ ᴱˢᵗᵉ ᴺᵘᵐᵉʳᵒ',
-       unreg: '✨ᴴᵒˡᵃ ᵇⁱᵉⁿᵛᵉⁿⁱ@ ᵃ ⁿᵘᵉˢᵗʳᵃ 💯ᶜᵒᵐᵘⁿⁱᵈᵃᵈ ᵈᵉ ᴴᵃᵈᵉˢ-ᵇᵒᵗ ᵖᵃʳᵃ ᵖᵒᵈᵉʳ ᵘˢᵃʳ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ᵈᵉˡ ᵇᵒᵗ ᵉˢ ⁿᵉᶜᵉˢᵃʳⁱᵒ qᵘᵉ ᵗᵉ ᵉⁿᶜᵘᵉⁿᵗʳᵉˢ\n📃ʳᵉᵍⁱˢᵗʳᵃᵈᵒ ᵉⁿ ᵐⁱ ᵇᵃˢᵉ ᵈᵉ ᵈᵃᵗᵒˢ ᵖᵃʳᵃ ʳᵉᵍⁱˢᵗʳᵃʳᵗᵉ ᵘˢᵃ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ˢⁱᵍᵘⁱᵉⁿᵗᵉˢ\n\n🪪/ʳᵉᵍ ⁿᵒᵐᵇʳᵉ.ᵉᵈᵃᵈ\nᵁⁿᵒ ᵉʲᵉᵐᵖˡᵒ\n🪪/ᴿᵉᵍ ᴴᵃᵈᵉˢ.²²\n\n📌ᴱˢᵖᵉʳᵒ qᵘᵉ ʰᵃʸᵃˢ ᵉⁿᵗᵉⁿᵈⁱᵈᵒ ʸ ᵖᵘᵉᵈᵃˢ ˢᵉʳ ʳᵉᵍⁱˢᵗʳᵃᵈᵒ ᵉⁿ ᵐⁱ ᵇᵃˢᵉ ᵈᵉ ᵈᵃᵗᵒˢ ᵖᵃʳᵃ qᵘᵉ ᵖᵘᵉᵈᵃˢ ʰᵃᶜᵉʳ ᵘˢᵒ ᵈᵉˡ ᵇᵒᵗ🪀',
+       unreg: '🧑🏻‍💻 *Necesitas registrarte para usar éste comando*\n📃Usa el siguiente comando para que puedas registrarte\n\n🧑🏻‍💻: /reg nombre.edad\nEjemplo\n🪪/reg tony.21\n\n📌Después pones /menu para acceder amis comandos',
        restrict: '[⚠️ᴬˡᵉʳᵗᵃ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᴱˢᵗᵃ ᴿᵉˢᵗʳⁱⁿᵍⁱᵈᵒ/ᴰᵉˢᵃᶜᵗⁱᵛᵃ ᴾᵒʳ ᴰᵉˢⁱᶜⁱᵒⁿ ᴰᵉˡ ᴾʳᵒᵖⁱᵉᵗᵃʳⁱᵒ/ᴬ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ'
        }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
-    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍', thumbnail: imagen6, sourceUrl: 'https://github.com/OFC-YOVANI/HADES-OMEGA' }}}}, aa)
+    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '⫷᭄©DROID-8-MD﹏✍', thumbnail: imagen6, sourceUrl: 'https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP' }}}}, aa)
     if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
     //if (msg) return m.reply(msg)
 }
