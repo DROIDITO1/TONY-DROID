@@ -8,9 +8,9 @@ let users = global.db.data.users
 users[who].banned = false
 conn.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙵𝚄𝙴 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*\n*—◉ 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚈𝙰 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]THE USER WAS SUCCESSFULLY FADED\n THE USER CAN NOW USE THE BOT*`, m)
 }
-handler.help = ['unbanuser']
+handler.help = ['unban']
 handler.tags = ['owner']
-handler.command = /^unbanuser$/i
+handler.command = /^unban$/i
 handler.rowner = true
 handler.register = true
 export default handler
