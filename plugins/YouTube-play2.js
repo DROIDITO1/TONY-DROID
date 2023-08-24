@@ -7,7 +7,6 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   if (!text) throw `*👨🏻‍💻 POR FAVOR INGRESE EL NOMBRE DEL VIDEO* \n\n *—◉ ejemplo:* \n *${usedPrefix + command} la vaca lola* \n\n\n*🤓* \n\n *—◉ 👻* \n *${usedPrefix + command} Farruko beba*`;
   try {
   await m.reply(` *_ESPERA MIENTRAS LE MANDO SU PEDIDO* \n\n *👻* `)
-  await m.reply(` _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'play3' || command == 'playdoc') {
