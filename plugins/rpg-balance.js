@@ -6,7 +6,7 @@ let name = conn.getName(who)
 m.reply(`╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │💰 *《《BALANCE》》* 
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-│🧑🏻‍💻 *NOMBRE:*  ${@user}
+│🧑🏻‍💻 *NOMBRE:*  ${name}
 │💎 *DIAMANTES:* ${global.db.data.users[who].limit}💎
 │💸 *DOLARES* ${global.db.data.users[who].joincount}
 │🕶 *DROID-COINS* ${global.db.data.users[who].money}
