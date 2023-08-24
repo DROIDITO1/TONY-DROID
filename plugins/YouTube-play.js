@@ -14,13 +14,12 @@ additionalText = 'audio 🔊'
 } else if (command === 'play2') {
 additionalText = 'video 🎥'}
 let texto1 = `༴⃟🌹๋ོ࣭ꦿ⁩PLAY-YouTube--⦿
-----------------------------------------------------------------------------------------------------------
+-----------------------------------------
 ⇄    ◁   ㅤ  ❚❚ㅤ   ▷ㅤ    ↻
 ➯➤͜͡🎶📌 *name:* ${yt_play[0].title}
 ➯➤📆 *Published:* ${yt_play[0].ago}
 ➯➤⌚ *Duration:* ${secondString(yt_play[0].duration.seconds)}
 ➯➤👀 *Views:* ${`${MilesNumber(yt_play[0].views)}`}
-➯➤🔗 *Link:* ${yt_play[0].url}
 ▢⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍`.trim()
 conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m })
 if (command == 'play') {
