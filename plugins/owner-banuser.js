@@ -7,6 +7,6 @@ let users = global.db.data.users
 users[who].banned = true
 m.reply('*🧑🏻‍💻 BANEADO, YA NO PODRA USARME por pendejo*\n')    }
 handler.command = /^ban$/i
-handler.rowner = true
+handler.admin = true
 handler.register = true
 export default handler
