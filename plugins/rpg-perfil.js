@@ -9,22 +9,23 @@ try {
 pp = await conn.profilePictureUrl(who)
 } catch (e) {
 } finally {
-let { name, role, level, limit, money, exp, joincount, lastclaim, registered, regTime, age, premiumTime } = global.db.data.users[who]
+let { name, role, role2, level, limit, money, exp, joincount, lastclaim, registered, regTime, age, premiumTime } = global.db.data.users[who]
 let username = conn.getName(who)
 let prem = global.prems.includes(who.split `@` [0])
 let sn = createHash('md5').update(who).digest('hex')
-let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
+let str = `╭「➻❥DROID-8-MD➻❥」
 │➯ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
 │➯ *🌐𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
-│➯ *Rango:* ${role}
+│➯ *⚓Rango:* ${role}
+│➯ *📊Poder:* ${role2}
 │➯ *✳️️Nivel:* ${level}
 │➯ *🧿Experiencia:* ${exp}
-│➯ *💎Diamantes:* ${limit} 𝚄𝚂𝙾𝚂
-│➯ *👾droid-coins:* ${money}
+│➯ *💎Diamantes:* ${limit} Usos
+│➯ *👾Hades-Coins:* ${money}
 │➯ *💵dolares:* ${joincount}
-│➯ *💥registrado:* ${registered ? 'Si': 'No'}
+│➯ *💥Registrado:* ${registered ? 'Si': 'No'}
 │➯ *✔️premium:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
-│➯ *📝NÚMERO DE SERIE:* 
+│➯ *📝número de serie:* 
 │➯ *${sn}*
 ╰───────────────╯`
 conn.sendMessage(m.chat, { image: { url: pp }, caption: str }, { quoted: m })
