@@ -7,14 +7,14 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
 if (!text) throw `*👨🏻‍💻 INGRESE EL NOMBRE DEL VIDEO* \n\n *—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:* \n *${usedPrefix + command} Farruko beba* \n\n\n*🤓* \n\n *—◉ AN EXAMPLE* \n *${usedPrefix + command} Farruko beba*`
 try {
-await m.reply(` *_⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
+await m.reply(` *🧑🏻‍💻 ESPERA MIENTRAS LE MANDO SU PEDIDO* \n\n *🤓* `)
 const yt_play = await search(args.join(" "))
 let captionvid = `➤͜͡🎶📌*name:* *${yt_play[0].title}*
 ➤͜͡📆 *Published:* *${yt_play[0].ago}*
 ➤͜͡⌚ *Duration:* *${secondString(yt_play[0].duration.seconds)}*
 ➤͜͡👀 *Views:* *${MilesNumber(yt_play[0].views)}*
 ➤͜͡🔗 *Link:* * ${yt_play[0].url}*
-⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍`  
+⫷᭄*©DROID-8-MD*﹏✍`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
