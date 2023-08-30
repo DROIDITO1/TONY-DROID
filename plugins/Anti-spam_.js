@@ -44,7 +44,7 @@ let text = `╭「➻❥DROID-8-MD➻❥」
 ╰───────────────╯`.trim()
   m.reply(text, null, { mentions: conn.parseMention(text) })
 }
-handler.help = ['top2']
+handler.help = ['.top2']
 handler.tags = ['xp']
 handler.command = ['leaderboard', 'lb'] 
 
