@@ -33,7 +33,8 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 │ *PUEDES SEGUIRNOS EN TIK-TOK*
 │ *http://tiktok.com/@coin.exe1*
 │ *CON ESO YA ESTARÁS APOYANDO* 
-│
+│*POR FAVOR: NO PIDAS EL MENU SEGUIDO*
+│*TARDO ENTRE 30/40 segundos en enviar otro*
 ︎╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「➻❥ *Estadísticas* ➻❥」
