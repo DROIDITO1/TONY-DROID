@@ -12,11 +12,11 @@ global.mods = []
 global.prems = ['50258487658'], 
 global.prems = ['50258487658'],
 
-global.packname = '•DROID-⁸-ᵐᵈ'
+global.packname = 'DROID-8-MD-𝐜.ᵇᵒᵗ'
 global.author = '©𝐓𝐎𝐍𝐘⋆𝐎𝐅𝐂'
 global.vs = '1.10.90'
 global.version = vs
-global.gt = '•DROID-⁸-ᵐᵈ'
+global.gt = 'DROID-8-MD-𝐜.ᵇᵒᵗ'
 global.hadesbot = gt
 global.yt = 'http://tiktok.com/@coin.exe1'
 global.youtube = yt
@@ -45,8 +45,8 @@ global.envio = eeg
 global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*'
 global.exito = eg
 
-global.wm = '𝐓𝐎𝐍𝐘⋆𝐎𝐅𝐂\n©DROID-⁸-ᵐᵈ'
-global.igfg = '•DROID-⁸-ᵐᵈ'
+global.wm = '𝐓𝐎𝐍𝐘⋆𝐎𝐅𝐂\n©DROID-8-MD-𝐜.ᵇᵒᵗ'
+global.igfg = 'DROID-8-MD-𝐜.ᵇᵒᵗ'
 global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱'
 
 global.imagen1 = fs.readFileSync('./views/Menu.jpg')
