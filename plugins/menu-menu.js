@@ -51,7 +51,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.animes [imagenes]*
 ├➽ *.grupos*
 ├➽ *.owner [contactos]*
-├➽ *.enable [comandos para el owner]*
+├➽ *.enable [Opciones para admin"s]
 ├➽ *.tagall*
 ├➽ *.comangrupos*
 ├➽ *.infogrupo*
