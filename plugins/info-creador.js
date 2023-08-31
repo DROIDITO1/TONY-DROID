@@ -6,7 +6,7 @@ let text = `╭─「➻❥ *owner* ➻❥」
 │➯Wa.me/50258487658 (CREADOR)
 ╰───────────────╯`.trim()   
 let buttonMessage= {
-'document': { url: `https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L` },
+'document': { url: `https://chat.whatsapp.com/FeaopsSyJ88LE7P2bqvIgS` },
 'mimetype': `application/${document}`,
 'fileName': `⫷᭄𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍`,
 'fileLength': 99999999999999,
@@ -15,7 +15,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L',
+'mediaUrl': 'https://chat.whatsapp.com/FeaopsSyJ88LE7P2bqvIgS',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
