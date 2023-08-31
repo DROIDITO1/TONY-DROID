@@ -27,7 +27,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「❥🧿 *Grupos y cuentas*🧿 ❥」
 │➯🧿 *DROID-8-MD*
-│➯🧿 https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP==
+│➯🧿 https://chat.whatsapp.com/FeaopsSyJ88LE7P2bqvIgS
 │➯🔮 *KIKTOK*
 │➯🖇️ http://tiktok.com/@coin.exe1/
 ︎╰───────────────╯`.trim()
