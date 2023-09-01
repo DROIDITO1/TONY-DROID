@@ -15,13 +15,13 @@ let prem = global.prems.includes(who.split `@` [0])
 let sn = createHash('md5').update(who).digest('hex')
 let str = `╭「➻❥DROID-8-MD➻❥」
 │➯ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
-│➯ *🌐𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
+│➯ *link:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
 │➯ *⚓Rango:* ${role}
 │➯ *📊Poder:* ${role2}
 │➯ *✳️️Nivel:* ${level}
 │➯ *🧿Experiencia:* ${exp}
 │➯ *💎Diamantes:* ${limit} Usos
-│➯ *👾Hades-Coins:* ${money}
+│➯ *👾Droid-Coins:* ${money}
 │➯ *💵dolares:* ${joincount}
 │➯ *💥Registrado:* ${registered ? 'Si': 'No'}
 │➯ *✔️premium:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
