@@ -30,7 +30,7 @@ let text = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯ *.listprem*
 ︎╰───────────────╯`.trim()   
 let buttonMessage= {
-'document': { url: `https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L` },
+'document': { url: `https://chat.whatsapp.com/FeaopsSyJ88LE7P2bqvIgS` },
 'mimetype': `application/${document}`,
 'fileName': `⫷᭄DROID-8-MD﹏✍`,
 'fileLength': 99999999999999,
@@ -39,13 +39,13 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP',
+'mediaUrl': 'https://chat.whatsapp.com/FeaopsSyJ88LE7P2bqvIgS',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://chat.whatsapp.com/GI7sCdBf4eV1XNB7qpIdEP' }},
+'sourceUrl': 'https://chat.whatsapp.com/FeaopsSyJ88LE7P2bqvIgS' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
