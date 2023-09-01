@@ -12,7 +12,7 @@ if (/webp|image|video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply('*EL VIDEO NO PUEDE DURAR MÁS DE 7 SEGUNDOS*\n\n\n*🗣*')
 let img = await q.download?.()
 
-if (!img) throw `*👨🏻‍💻 Responde a un video o imagen ${usedPrefix + command}*\n\n\n*🗣*`
+if (!img) throw `*👨🏻‍💻 Responde a un video o imagen ${usedPrefix + command}`
 
 let out
 try {
@@ -39,7 +39,7 @@ if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
 
-else throw '*👨🏻‍💻 LO siento, ocurrió un error, vuelve a intentarlo.  no olvide responder a un imagen/vídeo/gif*\n\n\n*🐥*'
+else throw '*👨🏻‍💻 Lo siento, ocurrió un error, vuelve a intentarlo.  no olvide responder a un imagen/vídeo/gif'
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
 handler.tags = ['sticker']
