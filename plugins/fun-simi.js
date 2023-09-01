@@ -1,7 +1,7 @@
 import translate from '@vitalets/google-translate-api'
 import fetch from "node-fetch"
 let handler = async (m, { text, command, args, usedPrefix }) => {
-  if (!text) throw `*[❗] INGRESEUN MENSAJE PARA HABLARCONMIGO*\n\n*EJEMPLO: ${usedPrefix + command} Hola bot*`
+  if (!text) throw `*👨🏻‍💻 INGRESE UN MENSAJE PARA QUE PUEDAS HABLAR CONMIGO*\n\n*EJEMPLO: ${usedPrefix + command} Hola *`
   try {
   let api = await fetch("https://api.simsimi.net/v2/?text=" + text + "&lc=es")
   let resSimi = await api.json()
