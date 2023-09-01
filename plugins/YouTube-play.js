@@ -6,7 +6,7 @@ import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 if (!text) throw ` *🧑🏻‍💻 INGRESE EL NOMBRE DE LA CANCIÓN* \n\n *—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:* \n *${usedPrefix + command} Farruko beba* \n\n\n*🤓* \n\n *—◉ AN EXAMPLE* \n *${usedPrefix + command} Farruko beba* `
 try {
-await m.reply(` *🧑🏻‍💻 ESPERA MIENTRAS LE MANDO SU PEDIDO* \n\n *🤓* `)
+await m.reply(` *🧑🏻‍💻 ESPERA MIENTRAS LE MANDO SU PEDIDO`)
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
