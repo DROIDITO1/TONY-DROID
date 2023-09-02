@@ -32,10 +32,6 @@ let text = `••••••••••••••••••
 ╭「☆ *TOP ${len} NIVEL* ☆」
 │➯Tú : *${usersLevel.indexOf(m.sender) + 1}* de *${usersLevel.length}*
 │➯${sortedLevel.slice(0, len).map(({ jid, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Nivel ${level}*`).join`\n`}
-─────────────────⋆
-╭「☆ *TOP ${len} RANGOS* ☆」
-│➯Tú : *${usersRole.indexOf(m.sender) + 1}* de *${usersRole.length}*
-│➯${sortedRole.slice(0, len).map(({ jid, role }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Rangos ${role}*`).join`\n`}
 ─────────────────⋆`.trim()
   m.reply(text, null, { mentions: conn.parseMention(text) })
 }
