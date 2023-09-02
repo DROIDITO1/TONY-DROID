@@ -1,4 +1,4 @@
-const free = 5000
+const free = 6000
 const prem = 20000
 let handler = async (m, { isPrems }) => {
   let time = global.db.data.users[m.sender].lastclaim + 86400000
@@ -25,7 +25,7 @@ function msToTime(duration) {
   var milliseconds = parseInt((duration % 1000) / 100),
     seconds = Math.floor((duration / 1000) % 60),
     minutes = Math.floor((duration / (1000 * 60)) % 60),
-    hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
+    hours = Math.floor((duration / (1000 * 60 * 60)) % 12)
 
   hours = (hours < 10) ? "0" + hours : hours
   minutes = (minutes < 10) ? "0" + minutes : minutes
