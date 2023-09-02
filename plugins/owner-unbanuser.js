@@ -9,7 +9,7 @@ users[who].banned = false
 conn.reply(m.chat, `*👨🏻‍💻 Desbaneado*\n*—◉El usuario ya puede usarme*`, m)
 }
 handler.help = ['unban']
-handler.tags = ['admin']
+handler.tags = ['owner']
 handler.command = /^unban$/i
 handler.admin = true
 handler.register = true
