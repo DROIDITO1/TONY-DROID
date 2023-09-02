@@ -37,10 +37,6 @@ let text = `╭「➻❥DROID-8-MD➻❥」
 ╭「➻❥ *TOP ${len} RANGOS⚓* ➻❥」
 │➯Tú : *${usersRole.indexOf(m.sender) + 1}* de *${usersRole.length}*
 │➯${sortedRole.slice(0, len).map(({ jid, role }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Rangos ${role}*`).join`\n`}
-╰───────────────╯
-╭「➻❥ *TOP ${len} PODER📊* ➻❥」
-│➯Tú : *${usersRole2.indexOf(m.sender) + 1}* de *${usersRole2.length}*
-│➯${sortedRole2.slice(0, len).map(({ jid, role2 }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Poder ${role2}*`).join`\n`}
 ╰───────────────╯`.trim()
   m.reply(text, null, { mentions: conn.parseMention(text) })
 }
