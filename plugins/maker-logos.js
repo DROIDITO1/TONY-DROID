@@ -3,7 +3,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
  *👨🏻‍💻 INGRESE LA CANTIDAD QUE DE SEE APOSTAR*  
   
  *Ejemplo:* 
- *${usedPrefix + command} 100*`.trim() 
+ *${usedPrefix + command} 25*`.trim() 
  if (!args[0]) throw fa 
  if (isNaN(args[0])) throw fa 
  let apuesta = parseInt(args[0]) 
