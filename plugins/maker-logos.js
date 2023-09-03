@@ -14,7 +14,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
  if (users.exp < apuesta) { 
  throw `*👨🏻‍💻 TUS DIAMANTES NO SON SUFICIENTE PARA APOSTAR ESA CANTIDAD, JUEGA OTROS JUEGOS O INTERACTUA CONMIGO PARA GANAR DIAMANTES, O COMPRA DIAMANTES USAN EL COMANDO: /buy [mas cantidad]` 
  } 
- let emojis = ["🐋", "🐉", "🕊️"]; 
+ let emojis = ["🐋", "🐉", "🦢"]; 
  let a = Math.floor(Math.random() * emojis.length); 
  let b = Math.floor(Math.random() * emojis.length); 
  let c = Math.floor(Math.random() * emojis.length); 
