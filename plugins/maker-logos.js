@@ -11,7 +11,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
  let time = users.lastslot + 10000 
  if (new Date - users.lastslot < 10000) throw `*⏳ ESPERA ${msToTime(time - new Date())} PARA VOLVER APOSTAR*` 
  if (apuesta < 10) throw '*👨🏻‍💻 el mínimo para apostar es de 20 Diamantes*' 
- if (users.exp < apuesta) { 
+ if (users.limit < apuesta) { 
  throw `*👨🏻‍💻 TUS DIAMANTES NO SON SUFICIENTE PARA APOSTAR ESA CANTIDAD, JUEGA OTROS JUEGOS O INTERACTUA CONMIGO PARA GANAR DIAMANTES, O COMPRA DIAMANTES USANDO EL COMANDO: /buy [mas cantidad]` 
  } 
  let emojis = ["🐋", "🐉", "🦢"]; 
