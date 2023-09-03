@@ -45,7 +45,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
  users.limit += 5 
  } else { 
  end = `*❌ PERDISTE -${apuesta} Diamantes*` 
- users.exp -= apuesta 
+ users.limit -= apuesta 
  } 
  users.lastslot = new Date * 1 
  return await m.reply( 
