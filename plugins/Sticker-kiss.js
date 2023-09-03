@@ -1,17 +1,33 @@
-import { sticker } from '../lib/sticker.js'
-import fetch from 'node-fetch'
-import MessageType from '@adiwajshing/baileys'
-let handler = async (m, { conn}) => {
-try {   
-if(m.quoted?.sender) m.mentionedJid.push(m.quoted.sender)
-if(!m.mentionedJid.length) m.mentionedJid.push(m.sender)
-let res = await fetch('https://nekos.life/api/kiss')
-let json = await res.json()
-let { url } = json
-let stiker = await sticker(null, url, `+${m.sender.split('@')[0]} le dio besos a ${m.mentionedJid.map((user)=>(user === m.sender)? 'alguien ': `+${user.split('@')[0]}`).join(', ')}`)
-conn.sendFile(m.chat, stiker, null, { asSticker: true })
-} catch (e) { }}
-handler.command = /^(kiss|skiss|kis|besos|beso)$/i
-handler.register = true
-handler.limit = 1
-export default handler
+import fetch from 'node-fetch' 
+ import { sticker } from '../lib/sticker.js' 
+ //import db from '../lib/database.js' 
+  
+ let handler = async (m, { conn, args, usedPrefix, command }) => { 
+  
+          let who 
+     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false 
+     else who = m.chat 
+     if (!who) throw `🧑🏻‍💻 Etiqueta o menciona a alguien\n\nEjemplo:  ${usedPrefix + command} @tag` 
+  
+     let user = global.db.data.users[who] 
+     let name = conn.getName(who)  
+    let name2 = conn.getName(m.sender)  
+    m.react(rwait) 
+  
+   let rki = await fetch(`https://api.waifu.pics/sfw/kiss`) 
+     if (!rki.ok) throw await rki.text() 
+    let jkis = await rki.json() 
+    let { url } = jkis 
+    let stiker = await sticker(null, url, `(${name2}) da un beso a`, `${name}`) 
+    conn.sendFile(m.chat, stiker, null, { asSticker: true }, m) 
+    m.react('👻')  
+  
+ } 
+  
+ handler.help = ['kiss @tag'] 
+ handler.tags = ['rnime'] 
+ handler.command = /^(kiss|beso)$/i 
+ handler.diamond = false 
+ handler.group = true 
+  
+ export default handler
