@@ -2,7 +2,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
  let fa = ` 
  *👨🏻‍💻 INGRESE LA CANTIDAD QUE DE SEE APOSTAR*  
   
- *📌 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:* 
+ *Ejemplo:* 
  *${usedPrefix + command} 100*`.trim() 
  if (!args[0]) throw fa 
  if (isNaN(args[0])) throw fa 
@@ -10,7 +10,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
  let users = global.db.data.users[m.sender] 
  let time = users.lastslot + 10000 
  if (new Date - users.lastslot < 10000) throw `*⏳ ESPERA ${msToTime(time - new Date())} PARA VOLVER APOSTAR*` 
- if (apuesta < 100) throw '*👨🏻‍💻 el mínimo para apostar es de 100 xp*' 
+ if (apuesta < 10) throw '*👨🏻‍💻 el mínimo para apostar es de 20 Diamantes*' 
  if (users.exp < apuesta) { 
  throw `*👨🏻‍💻 TU XP NO ES SUFICIENTE PARA APOSTAR ESA CANTIDAD, JUEGA OTROS JUEGOS O INTERACTUA CONMIGO PARA GANAR MAS XP*` 
  } 
@@ -38,13 +38,13 @@ let handler = async (m, { args, usedPrefix, command }) => {
  } 
  let end; 
  if (a == b && b == c) { 
- end = `*GANASTE! 🎁 +${apuesta + apuesta} 𝚇𝙿*` 
+ end = `*GANASTE! 🎁 +${apuesta + apuesta} Diamantes*` 
  users.exp += apuesta 
  } else if (a == b || a == c || b == c) { 
- end = `*🔮 CASI LO LOGRAS!, SIGUE INTENTANDO*\n*𝚃𝙾𝙼𝙰 +10 XP*` 
- users.exp += 10 
+ end = `*🔮 CASI LO LOGRAS!, SIGUE INTENTANDO*\n*TOMA +5 Diamantes*` 
+ users.limit += 5 
  } else { 
- end = `*❌ PERDISTE -${apuesta} 𝚇𝙿*` 
+ end = `*❌ PERDISTE -${apuesta} Diamantes*` 
  users.exp -= apuesta 
  } 
  users.lastslot = new Date * 1 
@@ -58,9 +58,9 @@ let handler = async (m, { args, usedPrefix, command }) => {
  ──────── 
  🎰 | ${end}`)  
  } 
- handler.help = ['slot <apuesta>'] 
+ handler.help = ['slot2 <apuesta>'] 
  handler.tags = ['game'] 
- handler.command = ['slot'] 
+ handler.command = ['slot2'] 
  handler.register = true 
  export default handler 
   
