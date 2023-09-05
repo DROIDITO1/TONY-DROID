@@ -14,14 +14,14 @@ let handler = async (m, {usedPrefix}) => {
  │ *--------------------*
  │👑 Compras  *precio* 👇
  │/prem1  *[15  dolares]*
- │/prem2  *[25  dolares]
+ │/prem2  *[25  dolares]*
  │/prem3  *[35  dolares]*
  │/prem4  *[50  dolares]*
  │/prem5  *[60  dolares]*
  │/prem6  *[70  dolares]*
  │/prem7  *[80  dolares]*
  │/prem8  *[100 dolares]*
- │*Compras premium* ⬆️
+ │ *Compras premium*  ⬆️
  ╭「
  │/bal [para ver toda tú xp/💎/💵] 
  ╰──────────────╯`) 
