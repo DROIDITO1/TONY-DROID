@@ -48,5 +48,5 @@ import { sticker } from '../lib/sticker.js'
  export default handler 
   
  const isUrl = (text) => { 
-   return text.match
+   return text.match'
  }
