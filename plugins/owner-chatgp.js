@@ -1,37 +1,28 @@
-import { randomBytes } from 'crypto'
-let link = /chat.whatsapp.com/
-let handler = async (m, { conn, text, groupMetadata }) => {
-if (m.isBaileys && m.fromMe)
-return !0
-if (!m.isGroup) return !1
-if (!text) throw '*_⚠ • ️Ingrese un -texto- para enviar un mensaje a todos los grupos._*'
-const linkThisGroup = `${link}`
-if (m.text.includes(linkThisGroup)) return conn.reply(m.chat, '❌ *_No puedes espamear enlaces a otros grupos._*', m)
-let time = global.db.data.users[m.sender].msgwait + 300000
-if (new Date - db.data.users[m.sender].msgwait < 300000) throw `*_⚠️ • Tienes que esperar ${msToTime(time - new Date())} para volver a enviar un mensaje._*`
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let name = await conn.getName(m.sender)
-let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
-let fakegif = { key: {participant: `0@s.whatsapp.net`, ...("50258487658-50258487658@g.us" ? { remoteJid: "50258487658-50258487658@g.us" } : {})},message: {"videoMessage": { "title": '⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍', "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': '⫷᭄©𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃﹏✍', 'jpegThumbnail': false }}}
-let teks = `*🌺 • 𝙶𝚛𝚞𝚙𝚘:* ${groupMetadata.subject}\n*🍀 • 𝙳𝚎:* ${name}\n*🍁 • 𝙽𝚞́𝚖𝚎𝚛𝚘:* wa.me/${who.split`@`[0]}\n*📧 • 𝙼𝚎𝚗𝚜𝚊𝚓𝚎:* ${text}`
-for (let id of groups) {
-await conn.sendMessage(id, { text: teks }, { quoted: fakegif })
-global.db.data.users[m.sender].msgwait = new Date * 1
-}}
-handler.command = /^(msg)$/i
-handler.owner = true
-handler.group = true
-handler.register = true
+import fetch from 'node-fetch'
+import axios from 'axios'
+import translate from '@vitalets/google-translate-api'
+import { Configuration, OpenAIApi } from 'openai'
+const configuration = new Configuration({ organization: global.openai_org_id, apiKey: global.openai_key });
+const openaiii = new OpenAIApi(configuration);
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+if (usedPrefix == 'a' || usedPrefix == 'A') return    
+if (!text) throw `*${lenguajeGB['smsAvisoMG']()}INGRESE EL MENSAJE: EJEMPLO: ${usedPrefix + command} Recomienda un top 10 de películas de acción\n❏ ${usedPrefix + command} Codigo en JS para un juego de cartas`     
+try {
+conn.sendPresenceUpdate('composing', m.chat)  
+let syms = `,DROID-8-MD`
+let res = await gpt.ChatGpt(text, syms)
+await m.reply(res.text)
+} catch {
+try {   
+let ia2 = await fetch(`https://api.amosayomide05.cf/gpt/?question=${text}&string_id=${m.sender}`) //fetch(`https://api.ibeng.tech/api/info/openai?text=${text}&apikey=tamvan`)
+let resu2 = await ia2.json()
+m.reply(resu2.response.trim())    
+} catch {        
+try {    
+let tioress = await fetch(`https://api.lolhuman.xyz/api/openai-turbo?apikey=${lolkeysapi}&text=${text}`)
+let hasill = await tioress.json()
+m.reply(`${hasill.result}`.trim())   
+} catch {    
+}}}}
+handler.command = ['openai', 'chatgpt', 'ia', 'robot']
 export default handler
-function msToTime(duration) {
-var milliseconds = parseInt((duration % 1000) / 100),
-seconds = Math.floor((duration / 1000) % 60),
-minutes = Math.floor((duration / (1000 * 60)) % 60),
-hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
-hours = (hours < 10) ? "0" + hours : hours
-minutes = (minutes < 10) ? "0" + minutes : minutes
-seconds = (seconds < 10) ? "0" + seconds : seconds
-return minutes + " m " + seconds + " s " }
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-const randomID = length => randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length)
