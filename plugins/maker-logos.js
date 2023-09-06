@@ -48,7 +48,7 @@ let ip = `*${pickRandom(['','','','','','','','','','','','','','','','','','','
 let old = performance.now()
 let neww = performance.now()
 let speed = `${neww - old}`
-let doxeo = `*PERSONA DOXEADA POR TONY* 😹\n\n*TIEMPO: ${speed} SEGUNDOS!*
+let doxeo = `*PERSONA DOXEADA/O CON ÉXITO* 😹\n\n*TIEMPO: ${speed} SEGUNDOS!*
 
 *RESULTADO🧑🏻‍💻:*
 
