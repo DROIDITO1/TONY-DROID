@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 if (usedPrefix == 'a' || usedPrefix == 'A') return    
 try {
 let pp = imagen3
-let img =  '.views/bot.jpg'
+let img =  'views/bot.jpg'
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
