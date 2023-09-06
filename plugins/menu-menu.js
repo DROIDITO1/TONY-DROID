@@ -2,8 +2,6 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return    
 try {
-let pp = imagen3
-let img =  '.views/bot.jpg'
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
