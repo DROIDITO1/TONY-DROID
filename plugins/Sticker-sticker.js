@@ -46,7 +46,7 @@ else throw `USO DEL COMANDO INCORRECTO\n\n*RESPONDE A UNA IMAGEN, VIDEO, GIF* *$
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
 handler.tags = ['sticker']
 handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
-handler.limit = 1
+handler.exp = 200
 
 export default handler
 
