@@ -3,8 +3,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 if (usedPrefix == 'a' || usedPrefix == 'A') return    
 try {
 let pp = imagen3
-//let vn = './media/menu.mp3'
-let img =  './views/Me.jpg'
+let img =  '.views/bot.jpg'
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -47,7 +46,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
-╭─「❥📌 *INFO BOT* 📌❥」
+╭─「❥ *INFO BOT* ❥」
 ├➽ *.menu2 [notas de audios]*
 ├➽ *.animes [imagenes]*
 ├➽ *.grupos*
@@ -61,7 +60,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.top2* [tabla]
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
-╭─「❥🌟 *Grupos* 🌟❥」
+╭─「❥ *Grupos*  ❥」
 ├➽ *.welcome @tag*
 ├➽ *.welcome @tag*
 ├➽ *bye @tag*
