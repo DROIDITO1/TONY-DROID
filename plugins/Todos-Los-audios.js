@@ -7,7 +7,7 @@ let vn = './Audios/Hola.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}    
 
-if (!chat.isBanned && chat.audios && m.text.match(/(pendejo|putos)/gi)) {
+if (!chat.isBanned && chat.audios && m.text.match(/(importa|putos)/gi)) {
 let vn = './Audios/dylan1.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp3', ptt: true }, { quoted: m })} 
@@ -15,7 +15,7 @@ this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 
 if (!chat.isBanned && chat.audios && m.text.match(/(tony|+50258487658)/gi)) {    
 let vn = './Audios/Ara.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
-this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp3', ptt: true }, { quoted: m })} 
     
 if (!chat.isBanned && chat.audios && m.text.match(/(miarda de bot|mierda de bot|mearda de bot|Miarda de Bot|Mierda de Bot|Mearda de Bot)/gi)) {    
 let vn = './Audios/insultar.mp3'
