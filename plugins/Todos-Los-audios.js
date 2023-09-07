@@ -7,8 +7,8 @@ let vn = './Audios/Hola.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}    
 
-if (!chat.isBanned && chat.audios && m.text.match(/(Tony|+50258487658)/gi)) {
-let vn = './Audios/9d9e014dc98f993f9d0f1eb528e0b51d_06092023.m4a'
+if (!chat.isBanned && chat.audios && m.text.match(/(Tony|tony)/gi)) {
+let vn = './Audios/9d9e014dc98f993f9d0f1eb528e0b51d_06092023.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/m4a', ptt: true }, { quoted: m })} 
     
