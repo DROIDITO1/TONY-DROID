@@ -1,6 +1,6 @@
 let handler = async (m, { isPrems, conn }) => { 
- let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 10 Horas //86400000 24 Horas 
- if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `YA RECLAMASTE TU COFRE\𝚗VUELVE EN *${msToTime(time - new Date())}* PARA VOLVER A RECLAMAR` 
+ let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 0 Horas //86400000 0 Horas 
+ if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `YA PEDISTE MENU RECIENTEMENTE: VUELVE EN *${msToTime(time - new Date())}* PARA VOLVER A PEDIR OTRO MENU` 
   
   
  let img = 'https://chat.whatsapp.com/CNrOeTr9PvE1hWCG8tKcqe:w=2000' 
