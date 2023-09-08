@@ -1,5 +1,5 @@
 let handler = async (m, { isPrems, conn }) => { 
- let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 0 Horas //86400000 0 Horas 
+ let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 0 Segundos //86400000 0 Segundos 
  if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `YA PEDISTE MENU RECIENTEMENTE: VUELVE EN *${msToTime(time - new Date())}* PARA VOLVER A PEDIR OTRO MENU` 
   
   
@@ -275,10 +275,10 @@ let handler = async (m, { isPrems, conn }) => {
  return list[Math.floor(Math.random() * list.length)]} 
   
  function msToTime(duration) { 
-   var milliseconds = parseInt((duration % 1000) / 100), 
+   var milliseconds = parseInt((duration % 1000) / 0), 
      seconds = Math.floor((duration / 1000) % 60), 
-     minutes = Math.floor((duration / (1000 * 60)) % 60), 
-     hours = Math.floor((duration / (1000 * 60 * 60)) % 24) 
+     minutes = Math.floor((duration / (1000 * 60)) % 0), 
+     hours = Math.floor((duration / (1000 * 60 * 60)) % 0) 
   
    hours = (hours < 0) ? "0" + hours : hours 
    minutes = (minutes < 0) ? "0" + minutes : minutes 
