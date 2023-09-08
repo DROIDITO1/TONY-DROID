@@ -1,1 +1,288 @@
-const _0x2e8e99=_0x9539;(function(_0x328dac,_0x25fb31){const _0x5e7331=_0x9539,_0x2dc6e5=_0x328dac();while(!![]){try{const _0x1c4ee8=parseInt(_0x5e7331(0x14a))/0x1+-parseInt(_0x5e7331(0x139))/0x2*(-parseInt(_0x5e7331(0x14e))/0x3)+-parseInt(_0x5e7331(0x13e))/0x4*(parseInt(_0x5e7331(0x147))/0x5)+-parseInt(_0x5e7331(0x141))/0x6+parseInt(_0x5e7331(0x14d))/0x7+-parseInt(_0x5e7331(0x145))/0x8+-parseInt(_0x5e7331(0x151))/0x9*(-parseInt(_0x5e7331(0x155))/0xa);if(_0x1c4ee8===_0x25fb31)break;else _0x2dc6e5['push'](_0x2dc6e5['shift']());}catch(_0x373bc8){_0x2dc6e5['push'](_0x2dc6e5['shift']());}}}(_0x5524,0xbd423));function _0x5524(){const _0x22d988=['sendFile','author','369hqTMCM','droidsticker','\x0a┃Total\x20stickers:\x20','sticksearch','515510LouAxM','2526276hOeMwl','\x20s\x0a┃Sigueme\x20mientras\x0a┃hago\x20el\x20envío\x20❤\x0a╰•⋆҈͜͡.𝐃𝐑𝐎𝐈𝐃𝐈𝐓𝐎⋆҈͜͡•╯\x0a\x0a🧑🏻‍💻️\x20Sigueme\x20en\x20tik-tok\x20🤩\x0http://tiktok.com/@coin.exe1\x0a','stickersearch','\x0a╭•⋆҈͜͡.𝐓𝐎𝐍𝐘⋆𝐒𝐄𝐗𝐎⋆҈͜͡•╮\x0a┃🧑🏻‍💻\x20RESULTADO\x0a┃Titulo:\x20','length','4646764EJCQCd','getstick','command','6768114SCTGmn','sticker_url','chat','sticker.webp','10661832lbodzN','title','5BIXlyx','getsticker','\x0a┃Tiempo\x20estimado\x0a┃de\x20envio:\x20','15520nDwXQp','diamond','tags','7037751MjVJBv','3wMNadO'];_0x5524=function(){return _0x22d988;};return _0x5524();}import _0x4831e2 from'api-dylux';import _0x2282b3 from'node-fetch';import{sticker}from'../lib/sticker.js';let handler=async(_0x3f786e,{conn:_0x562582,args:_0x2de00d,text:_0x287fe2,usedPrefix:_0x1ed54a,command:_0x53fce0})=>{const _0x55a7b0=_0x9539;if(!_0x2de00d[0x0])throw'🧑🏻‍💻\x20ingrese\x20el\x20nombre\x20del\x20personaje\x20que\x20quiere\x20los\x20stickers\x20\x0a\x0aEjemplo\x20👉🏻\x0a'+(_0x1ed54a+_0x53fce0)+'\x20pocoyo';try{let _0x1ccc14=await _0x4831e2['StickerSearch'](_0x287fe2);_0x3f786e['reply'](_0x55a7b0(0x13c)+_0x1ccc14[_0x55a7b0(0x146)]+_0x55a7b0(0x153)+_0x1ccc14['sticker_url'][_0x55a7b0(0x13d)]+_0x55a7b0(0x149)+_0x1ccc14['sticker_url'][_0x55a7b0(0x13d)]*0x2+_0x55a7b0(0x13a));for(let _0x11894e of _0x1ccc14[_0x55a7b0(0x142)]){const _0x5bebf7=await sticker(![],_0x11894e,global['packname'],global[_0x55a7b0(0x150)]);await _0x562582[_0x55a7b0(0x14f)](_0x3f786e[_0x55a7b0(0x143)],_0x5bebf7,_0x55a7b0(0x144),'',_0x3f786e);}}catch(_0x536231){_0x3f786e['reply']('📵️\x20Error:\x20prueba\x20con\x20otro');}};handler['help']=[_0x2e8e99(0x152)],handler[_0x2e8e99(0x14c)]=['sticker'],handler[_0x2e8e99(0x140)]=[_0x2e8e99(0x148),_0x2e8e99(0x152),_0x2e8e99(0x13f),_0x2e8e99(0x13b),_0x2e8e99(0x154)],handler[_0x2e8e99(0x14b)]=![];export default handler;function _0x9539(_0xff4ca8,_0x54e2ac){const _0x552418=_0x5524();return _0x9539=function(_0x9539e7,_0x15af7b){_0x9539e7=_0x9539e7-0x139;let _0x2819d5=_0x552418[_0x9539e7];return _0x2819d5;},_0x9539(_0xff4ca8,_0x54e2ac);}const delay=_0x18bcd8=>new Promise(_0x44840f=>setTimeout(_0x44840f,_0x18bcd8));
+let handler = async (m, { isPrems, conn }) => { 
+ let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 10 Horas //86400000 24 Horas 
+ if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `YA RECLAMASTE TU COFRE\𝚗VUELVE EN *${msToTime(time - new Date())}* PARA VOLVER A RECLAMAR` 
+  
+  
+ let img = 'https://chat.whatsapp.com/CNrOeTr9PvE1hWCG8tKcqe:w=2000' 
+ let dia = Math.floor(Math.random() * 30) 
+ let tok = Math.floor(Math.random() * 10) 
+ let hadesb = Math.floor(Math.random() * 4000) 
+ let expp = Math.floor(Math.random() * 5000) 
+  
+   global.db.data.users[m.sender].limit += dia 
+   global.db.data.users[m.sender].money += hadesb 
+   global.db.data.users[m.sender].joincount += tok 
+   global.db.data.users[m.sender].exp += expp 
+  
+ let texto = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」 
+ │➯🐥 *HOLA,➟${taguser}* 
+ │➯🧑🏻‍💻  DROID *MENU* 
+ │➯📅 *ғᴇᴄʜᴀ:➟${date}* 
+ │➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}* 
+ │➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}* 
+ ︎╰───────────────╯ 
+ ╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」 
+ │➯👨🏻‍💻 *HOLA,➟${taguser}* 
+ │ *BIENVENID@ AL MENU* 
+ │ *PUEDES SEGUIRNOS EN TIK-TOK* 
+ │ *http://tiktok.com/@coin.exe1* 
+ │ *CON ESO YA ESTARÁS APOYANDO*  
+ │*POR FAVOR: NO PIDAS EL MENU SEGUIDO* 
+ │*TARDO ENTRE 30/40 segundos en enviar otro* 
+ ︎╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「➻❥ *Estadísticas* ➻❥」 
+ ├➽ *✳️️Nivel:* ${level} 
+ ├➽ *🧿Experiencia:* ${exp} 
+ ├➽ *⚓Rango:* ${role} 
+ ├➽ *💎Diamantes:* ${limit} 
+ ├➽ *🔱Hades-Coins:* ${money} 
+ ├➽ *💵dolares:* ${joincount} 
+ ├➽ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''} 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥ *INFO BOT* ❥」 
+ ├➽ *.menu2 [notas de audios]* 
+ ├➽ *.animes [imagenes]* 
+ ├➽ *.grupos* 
+ ├➽ *.owner [contactos]* 
+ ├➽ *.enable [Opciones para admin"s] 
+ ├➽ *.tagall* 
+ ├➽ *.comangrupos* 
+ ├➽ *.infogrupo* 
+ ├➽ *.shop [tienda]* 
+ ├➽ *.sell [tienda]* 
+ ├➽ *.top2* [tabla] 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥ *Grupos*  ❥」 
+ ├➽ *.welcome @tag* 
+ ├➽ *.welcome @tag* 
+ ├➽ *bye @tag* 
+ ├➽ *.promote @tag* 
+ ├➽ *.demote @tag* 
+ ├➽ *.infogp <info del grupo>* 
+ ├➽ *.infobot <estado del bot>* 
+ ├➽ *.hidetag* 
+ ├➽ *.delete* 
+ ├➽ *.del* 
+ ├➽ *.join* [link del grupo]* 
+ ├➽ *.link [link de tu grupo* 
+ ├➽ *.advertir/warn @tag* 
+ ├➽ *.unwarn/delwarn* 
+ ├➽ *.ban/unban* 
+ ├➽ *.kick @tag* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥💎 *transfer* 💎❥」 
+ ├➽ *.transferjoincount mas <cantidad>* 
+ ├➽ *.transferlimit mas <cantidad>* 
+ ├➽ *.transferxp mas <cantidad>* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥ *gana&compara* ❥」 
+ ├➽ *.minar* 
+ ├➽ *.minar2* 
+ ├➽ *.minar3* 
+ ├➽ *.claim* 
+ ├➽ *.coffer* 
+ ├➽ *.bal* *[todo tu exp/Diamantes y otros]* 
+ ├➽ *puedes comprar diamantes usando los comandos*  
+ ├➽ *.busyall te cobra Hades-Coins* 
+ ├➽ *.bus <cantidad>*  
+ ├➽ *.buyall te cobra experiencia* 
+ ├➽ *.buy <cantidad>* 
+ ├➽ *.dolares te cobra diamantes* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥💎 *comandos-owner-add* 🧿❥」 
+ ├➽ *.añadirxp <cantidad> @tag* 
+ ├➽ *.añadirdiamantes @tag <cantidad>* 
+ ├➽ *.añadirdolares  @tag <cantidad>* 
+ ├➽ *.añadirdolares @tag <cantidad>* 
+ ├➽ *.addprem @tag days* 
+ ╰───────────────╯ 
+ 😼᭢━━━━━━━━━᭥😼᭢ 
+ ╭─「❥👾 *Stickers* 🌴❥」 
+ ├➽ *.stiker/.s 
+ ├➽ *.wm paquete | nombre* 
+ ├➽ *.sermoverbg [imagen sin fondo]* 
+ ├➽ *.slap* 
+ ├➽ *.scircle [sticker circular]* 
+ ├➽ *.pat* 
+ ├➽ *.emojimix ☺&😈* 
+ ├➽ *.dados* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥🤖 *Reportar* 🤖❥」 
+ ├➽ *.reporte [comandos en fallos]* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥🤣 *Acciones* 😚❥」 
+ ├➽ *.kiss .beso <tag>* 
+ ├➽ *.follar <tag>* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭──「❥🎙️ *Descargas* 📽️❥」 
+ ├➽ *.wikipedia <busqueda>* 
+ ├➽ *.animeinfo <nombre>* 
+ ├➽ *.play nombre de tu canción* 
+ ├➽ *.play2 nombre de tu video* 
+ ├➽ *.play3 nombre de tu canción,doc* 
+ ├➽ *.play4 nombre de tu video,doc* 
+ ├➽ *.audio nombre de tu canción* 
+ ├➽ *.video nombre de tu video* 
+ ├➽ *.audiodocu nombre de tu canción,doc* 
+ ├➽ *.videodocu nombre de tu video,doc* 
+ ├➽ *.ytmp3 tu link  Audio* 
+ ├➽ *.ytmp4 tu link  video* 
+ ├➽ *.ytmp3doc link canción,doc* 
+ ├➽ *.ytmp4doc link video,doc* 
+ ├➽ *.facebook tu link de fb* 
+ ├➽ *.tiktok link de video tiktok* 
+ ├➽ *.mediafire link de mediafire* 
+ ├➽ *.twitter tu link de twt* 
+ ├➽ *.ig link de tu video en ig* 
+ ├➽ *.google resultados de google* 
+ ├➽ *.ytbuscar busqueda en Youtube* 
+ ├➽ *.gdrive link de drive* 
+ ├➽ *.whatmusic responde a una audio* 
+ ├➽ *.calculadora Ejemplo : .calc 2+2* 
+ ├➽ *.ssweb link de tu img* 
+ ├➽ *.tts [texto a Audio] 
+ ├➽ *.quemusica resultado* 
+ ╰───────────────╯ 
+ 🧑🏻‍💻᭢━━━━━━━━━᭥🧑🏻‍💻᭢ 
+ ╭──「❥🗣️ *chatgpt* 📃❥」 
+ ├➽ *.simi* 
+ ├➽ *.bot* 
+ ├➽ *.ia* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥🎮 *Juegos* 🎮❥」 
+ ├➽ *.love [medidor de amor]* 
+ ├➽ *.gay2 [porcentaje]* 
+ ├➽ *.puta [porcentaje]* 
+ ├➽ *.puto [porcentaje]* 
+ ├➽ *.pajero [porcentaje]* 
+ ├➽ *.pajera [porcentaje]* 
+ ├➽ *.lesbiana [porcentaje]* 
+ ├➽ *.pvp* 
+ ├➽ *.sopa* 
+ ├➽ *.juego piedra/papel/tijera* 
+ ├➽ *.reto [reto del bot]* 
+ ├➽ *.acertijo* 
+ ├➽ *.verdad [verdad del bot]* 
+ ├➽ *.formarpareja [parejas ramdon]* 
+ ├➽ *.slot [ruleta]* 
+ ├➽ *.piropo [piropo del bot]* 
+ ├➽ *.casino <apuesta>* 
+ ├➽ *.meme <meme>* 
+ ︎╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥🧿 *nivel* 🧿❥」 
+ ├➽ *.levelup subir de nivel* 
+ ︎╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢⇆ㅤ 
+  ||◁ㅤ❚❚ㅤ▷||ㅤ ↻ 
+  
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥🤴 *comandos-owner/admin"s* 🤴❥」 
+ ├➽ *.block* 
+ ├➽ *.limpiarbot* 
+ ├➽ *.blocklist* 
+ ├➽ *.unblocklist* 
+ ├➽ *.banuser* 
+ ├➽ *.setprefix* 
+ ├➽ *.resetprefix* 
+ ├➽ *.unbanuser* 
+ ├➽ *.kick* @tag 
+ ├➽ *.fantasmas* 
+ ├➽ *.invitar* 
+ ├➽ *.resetlink* 
+ ├➽ *.banchat [banea el chat]* 
+ ├➽ *.unbanchat [desbanea el chat]* 
+ ├➽ *.grupo abrir/cerrar* 
+ ├➽ *.addcmd* 
+ ├➽ *.delcmd* 
+ ├➽ *.listcmd* 
+ ├➽ *.actualizar* 
+ ╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥🎙️ *convertidor&mp3* 📽️❥」 
+ ├➽ *.mp3* 
+ ├➽ *.toimg* 
+ ├➽ *.togifaus* 
+ ├➽ *.ptt* 
+ ├➽ *.tomp4* 
+ ├➽ *.tts* 
+ ├➽ *.attp3* 
+ ├➽ *.ttp* 
+ ├➽ *.ttp2* 
+ ├➽ *.ttp3* 
+ ├➽ *.ttp5* 
+ ├➽ *.tovn* 
+ ├➽ *.togifaud* 
+ ︎╰───────────────╯ 
+ 🦅᭢━━━━━━━━━᭥🦅᭢ 
+ ╭─「❥📊 *Otros Comandos* ⚙️❥」 
+ ├➽ *.hd <imagen>* 
+ ├➽ *.topdf* 
+ ├➽ *.ytcomment* 
+ ├➽ *.removebg* 
+ ├➽ *.wpgaming* 
+ ├➽ *.doraemon* 
+ ├➽ *.planeta* 
+ ├➽ *.technology* 
+ ├➽ *.ciberespacio* 
+ ├➽ *.caricatura* 
+ ├➽ *.pubg* 
+ ├➽ *.wprandom* 
+ ├➽ *.styletext* 
+ ├➽ *.afk [razón]* 
+ ├➽ *.lb* 
+ ├➽ *.perfil* 
+ ├➽ *.clima* 
+ ├➽ *.covid* 
+ ├➽ *.horario* 
+ ︎╰───────────────╯` 
+  
+ const fkontak = { 
+         "key": { 
+     "participants":"0@s.whatsapp.net", 
+                 "remoteJid": "status@broadcast", 
+                 "fromMe": false, 
+                 "id": "Halo" 
+         }, 
+         "message": { 
+                 "contactMessage": { 
+                         "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` 
+                 } 
+         }, 
+         "participant": "0@s.whatsapp.net" 
+ } 
+ await conn.sendFile(m.chat, img, 'droid.jpg', texto, fkontak) 
+ //await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)   
+ global.db.data.users[m.sender].lastcofre = new Date * 1 
+ } 
+ handler.help = ['menu'] 
+ handler.tags = ['xp'] 
+ handler.command = ['pendejo', 'Droid', 'ayuda', 'ayuda2']  
+ handler.register = true 
+ export default handler 
+  
+ function pickRandom(list) { 
+ return list[Math.floor(Math.random() * list.length)]} 
+  
+ function msToTime(duration) { 
+   var milliseconds = parseInt((duration % 1000) / 100), 
+     seconds = Math.floor((duration / 1000) % 60), 
+     minutes = Math.floor((duration / (1000 * 60)) % 60), 
+     hours = Math.floor((duration / (1000 * 60 * 60)) % 24) 
+  
+   hours = (hours < 0) ? "0" + hours : hours 
+   minutes = (minutes < 0) ? "0" + minutes : minutes 
+   seconds = (seconds < 0) ? "0" + seconds : seconds 
+  
+   return hours + " Horas " + minutes + " Minutos" 
+ }
