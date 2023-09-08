@@ -1,5 +1,5 @@
 let handler = async (m, { isPrems, conn }) => { 
- let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 0 Segundos //86400000 0 Segundos 
+ let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 1 Segundos //86400000 1 Segundos 
  if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `YA PEDISTE MENU RECIENTEMENTE: VUELVE EN *${msToTime(time - new Date())}* PARA VOLVER A PEDIR OTRO MENU` 
   
   
