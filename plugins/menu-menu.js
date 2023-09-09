@@ -22,9 +22,8 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let str = `╭「➻❥DROID-8-MD➻❥」
 │➯🐥 *HOLA,➟${taguser}*
 │➯🧑🏻‍💻  DROID *MENU*
-│➯📅 *ғᴇᴄʜᴀ:➟${date}*
-│➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
-│➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
+│➯📅 *FECHA ACTUAL:➟${date}*
+│➯🤗 Tiempo activo: *547.5 días*
 ︎╰───────────────╯
 ╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯👨🏻‍💻 *HOLA,➟${taguser}*
@@ -85,19 +84,18 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.transferxp mas <cantidad>*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
-╭─「❥ *gana&compara* ❥」
+╭─「❥ *RECOMPENSAS Y COMPRAS* ❥」
 ├➽ *.minar*
 ├➽ *.minar2*
 ├➽ *.minar3*
 ├➽ *.claim*
 ├➽ *.coffer*
-├➽ *.bal* *[todo tu exp/Diamantes y otros]*
-├➽ *puedes comprar diamantes usando los comandos* 
-├➽ *.busyall te cobra Hades-Coins*
+├➽ *.bal* 
+├➽ *.busyall*
 ├➽ *.bus <cantidad>* 
-├➽ *.buyall te cobra experiencia*
+├➽ *.buyall*
 ├➽ *.buy <cantidad>*
-├➽ *.dolares te cobra diamantes*
+├➽ *.dolares*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥💎 *comandos-owner-add* 🧿❥」
