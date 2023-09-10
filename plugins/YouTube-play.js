@@ -4,7 +4,7 @@ import ytdl from 'ytdl-core'
 import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-if (!text) throw ` *🧑🏻‍💻 INGRESE EL NOMBRE DE LA CANCIÓN* \n\n *—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:* \n *${usedPrefix + command} Farruko beba* \n\n\n*🤓* \n\n *—◉ AN EXAMPLE* \n *${usedPrefix + command} Farruko beba* `
+if (!text) throw ` *🧑🏻‍💻 INGRESE EL NOMBRE DE LA CANCIÓN*\n\n *EJEMPLO:* \n *${usedPrefix + command} Farruko beba
 try {
 await m.reply(` *🧑🏻‍💻 ESPERA MIENTRAS LE MANDO SU PEDIDO`)
 const yt_play = await search(args.join(" "))
@@ -19,7 +19,7 @@ let texto1 = `༴⃟🌹๋ོ࣭ꦿ⁩PLAY-YouTube--⦿
 ➯➤📆 *Published:* ${yt_play[0].ago}
 ➯➤⌚ *Duration:* ${secondString(yt_play[0].duration.seconds)}
 ➯➤👀 *Views:* ${`${MilesNumber(yt_play[0].views)}`}
-➯➤👨🏻‍💻 *Link:* Descargando....
+➯➤👨🏻‍💻 *Descargando....*
 ▢⫷᭄©DROID-8-MD﹏✍`.trim()
 conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m })
 if (command == 'play') {
