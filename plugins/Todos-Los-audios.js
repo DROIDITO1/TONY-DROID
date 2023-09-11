@@ -22,17 +22,17 @@ let vn = './Audios/insultar.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}     
     
-if (!chat.isBanned && chat.audios && m.text.match(/(gore|Gore|cp|CP|porno|PORNO|rule34|RULE34|Desnuda|Desnuda)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(gore|Gore|cp|CP|porno|PORNO|rule34|RULE34|Desnuda|Desnuda|Hentai|hentai)/gi)) {    
 let vn = './Audios/Banate.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}     
     
-if (!chat.isBanned && chat.audios && m.text.match(/(tony|@50258487658|TONYY)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(tony|@50258487658|TONY)/gi)) {    
 let vn = './Audios/baneado.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}    
    
-if (!chat.isBanned && chat.audios && m.text.match(/(bebito fiu fiu|bff|Bebito Fiu Fiu|Bff)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(Porque algunas personas dejan de creer en Dios|por que algunas personas dejan de creer en dios)/gi)) {    
 let vn = './Audios/bff.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}   
