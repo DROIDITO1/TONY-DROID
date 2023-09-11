@@ -44,7 +44,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
-╭─「❥ *INFO BOT* ❥」
+╭─「❥ *INFO* ❥」
 ├➽ *.menu2 <AUDIOS>* *nuevo*
 ├➽ *.animes [imagenes]*
 ├➽ *.grupos*
@@ -128,28 +128,28 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ╭──「❥🎙️ *Descargas* 📽️❥」
 ├➽ *.wikipedia <busqueda>*
 ├➽ *.animeinfo <nombre>*
-├➽ *.play nombre de tu canción*
-├➽ *.play2 nombre de tu video*
-├➽ *.play3 nombre de tu canción,doc*
-├➽ *.play4 nombre de tu video,doc*
-├➽ *.audio nombre de tu canción*
-├➽ *.video nombre de tu video*
-├➽ *.audiodocu nombre de tu canción,doc*
-├➽ *.videodocu nombre de tu video,doc*
-├➽ *.ytmp3 tu link  Audio*
-├➽ *.ytmp4 tu link  video*
-├➽ *.ytmp3doc link canción,doc*
-├➽ *.ytmp4doc link video,doc*
-├➽ *.facebook tu link de fb*
-├➽ *.tiktok link de video tiktok*
-├➽ *.mediafire link de mediafire*
-├➽ *.twitter tu link de twt*
-├➽ *.ig link de tu video en ig*
-├➽ *.google resultados de google*
-├➽ *.ytbuscar busqueda en Youtube*
-├➽ *.gdrive link de drive*
-├➽ *.whatmusic responde a una audio*
-├➽ *.calculadora Ejemplo : .calc 2+2*
+├➽ *.play*
+├➽ *.play2*
+├➽ *.play3*
+├➽ *.play4*
+├➽ *.audio*
+├➽ *.video*
+├➽ *.audiodocu*
+├➽ *.videodocu*
+├➽ *.ytmp3 <link>
+├➽ *.ytmp4 <link>*
+├➽ *.ytmp3doc*
+├➽ *.ytmp4doc*
+├➽ *.facebook*
+├➽ *.tiktok*
+├➽ *.mediafir*
+├➽ *.twitter*
+├➽ *.ig*
+├➽ *.google*
+├➽ *.ytbuscar*
+├➽ *.gdrive*
+├➽ *.whatmusic*
+├➽ *.calculadora/calc
 ├➽ *.ssweb link de tu img*
 ├➽ *.tts [texto a Audio]
 ├➽ *.quemusica resultado*
@@ -162,32 +162,28 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥🎮 *Juegos* 🎮❥」
-├➽ *.love [medidor de amor]*
-├➽ *.gay2 [porcentaje]*
-├➽ *.puta [porcentaje]*
-├➽ *.puto [porcentaje]*
-├➽ *.pajero [porcentaje]*
-├➽ *.pajera [porcentaje]*
-├➽ *.lesbiana [porcentaje]*
-├➽ *.pvp*
+├➽ *.gay* <@tag> [perfil gay]
+├➽ *doxear <@tag>
+├➽ *Top* ejemplo: <.top pendejos>
+├➽ *.love <@tag>*
+├➽ *.gay2 <@tag>*
+├➽ *.puta <@tag>*
+├➽ *.puto <@tag>*
+├➽ *.pajero <@tag>*
+├➽ *.pajera <@tag>*
+├➽ *.lesbiana <@tag>*
+├➽ *.pvp*  <@tag>
 ├➽ *.sopa*
-├➽ *.juego piedra/papel/tijera*
+├➽ *.juego [piedra/papel/tijera]*
 ├➽ *.reto [reto del bot]*
-├➽ *.acertijo*
+├➽ *.acertijo *no disponible* 🤥
 ├➽ *.verdad [verdad del bot]*
 ├➽ *.formarpareja [parejas ramdon]*
 ├➽ *.slot [ruleta]*
 ├➽ *.piropo [piropo del bot]*
 ├➽ *.casino <apuesta>*
 ├➽ *.meme <meme>*
-︎╰───────────────╯
-🦅᭢━━━━━━━━━᭥🦅᭢
-╭─「❥🧿 *nivel* 🧿❥」
-├➽ *.levelup subir de nivel*
-︎╰───────────────╯
-🦅᭢━━━━━━━━━᭥🦅᭢⇆ㅤ
- ||◁ㅤ❚❚ㅤ▷||ㅤ ↻
-
+︎╰───────────────
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥🤴 *comandos-owner/admin"s* 🤴❥」
 ├➽ *.block*
