@@ -23,7 +23,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 │➯🐥 *HOLA,➟${taguser}*
 │➯🧑🏻‍💻  DROID *MENU*
 │➯📅 *FECHA ACTUAL:➟${date}*
-│➯🤗 Tiempo activo: *547.5 días*
+│➯🤗 Tiempo activo: *549 días*
 ︎╰───────────────╯
 ╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯👨🏻‍💻 *HOLA,➟${taguser}*
