@@ -60,7 +60,9 @@ let str = `╭「➻❥DROID-8-MD➻❥」
   👇 *actualizado* 👇
 🧑🏻‍💻᭢━━━━━━━━━᭥🧑🏻‍💻᭢
 ╭──「❥ *Avanzado* ❥」
-├➽ *.bot*
+├➽ *.ia* *<mas Avanzado, sirve para todo>*
+├➽ *.bot* <para interactuar y amigar con el bot>
+├➽ *.bot* <no tan Avanzado y algo de comedia>
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥ *Grupos*  ❥」
