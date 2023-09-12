@@ -1,5 +1,5 @@
 let handler = async (m, { conn, isPrems}) => { //lastmiming
-let minar3 = `${pickRandom(['⚔️ǫᴜᴇ ᴘʀᴏ ʜᴀs ᴍɪɴᴀᴅᴏ','✨ ɢᴇɴɪᴀʟ!! ᴏʙᴛɪᴇɴᴇs','ᴡᴏᴡ!! ᴇʀᴇs ᴜɴ(ᴀ) ɢʀᴀɴ ᴍɪɴᴇʀᴏ(ᴀ) 🍁 ᴏʙᴛɪᴇɴᴇs','ғᴇʟɪᴄɪᴅᴀᴅᴇs!! ᴀʜᴏʀᴀ ᴛɪᴇɴᴇs','⛏️ᴏʙᴛɪᴇɴᴇs'])}`
+let minar3 = `${pickRandom(['Que pro',' Minaste ','😎','☆','OBTIENES'])}`
 let pp = 'src/minar.mp4'
 
 let hades= Math.floor(Math.random() * 1000)
@@ -7,7 +7,7 @@ global.db.data.users[m.sender].money += hades * 1
 let time = global.db.data.users[m.sender].lastcoins + 600000
 if (new Date - global.db.data.users[m.sender].lastcoins < 600000) throw `YA MINASTE DROID-COINS ESPERA PARA VOLVER A MINAR${msToTime(time - new Date())} 🧑🏻‍💻`  
 
-m.reply(`*[ 🧿 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${minar3} ${hades} ʜᴀᴅᴇs-ᴄᴏɪɴs💰*`)
+m.reply(`*Que pro, Minaste ${minar3} ${droid} DROID-COINS 😎*`)
 global.db.data.users[m.sender].lastcoins = new Date * 1  
 
 }
