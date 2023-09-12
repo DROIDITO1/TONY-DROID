@@ -57,6 +57,11 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.sell [tienda]*
 ├➽ *.top2* [tabla]
 ╰───────────────╯
+  👇 *actualizado* 👇
+🧑🏻‍💻᭢━━━━━━━━━᭥🧑🏻‍💻᭢
+╭──「❥ *Avanzado* ❥」
+├➽ *.bot*
+╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥ *Grupos*  ❥」
 ├➽ *.welcome @tag*
