@@ -1140,7 +1140,7 @@ import { generateWAMessageFromContent } from "@adiwajshing/baileys"
      const messageNumber = user.bannedMessageCount + 1; 
      const messageText = `❰ ⚠️ ❱ *ESTAS BANEADO/A* ❰ ⚠️ ❱\nAviso ${messageNumber}/3 (${messageNumber} de 3)${user.bannedReason ? `\n*Motivo:* *${user.bannedReason}*` : ''} 
  *👉 Puedes contactar a la propietaria del Bot si crees que se trata de un error (TENER PRUEBAS) para tratar el motivo de tú desbaneo* 
- 👉 wa.me/5212412377467 
+ 👉 wa.me/50258487658 
  `.trim(); 
   
      //m.reply(messageText); 
@@ -1222,7 +1222,7 @@ import { generateWAMessageFromContent } from "@adiwajshing/baileys"
                  else 
                      m.exp += xp 
                  if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) { 
-                     this.reply(m.chat, `✨ᴴᵒˡᵃ ᵉˢᵗⁱᵐᵃᵈᵒ ˡᵒ ˢⁱᵉⁿᵗᵒ ᵖᵉʳᵒ ᵗᵘˢ 💎ᵈⁱᵃᵐᵃⁿᵗᵉˢ ˢᵉ ᵗᵉ ʰᵃⁿ ᵃᵍᵒᵗᵃᵈᵒ ˢⁱ ᵈᵉˢᵉᵃˢ ˢᵉᵍᵘⁱʳ ᵘˢᵃⁿᵈᵒ ᵉˡ ᵇᵒᵗ ᵖᵘᵉᵈᵉˢ ⁱʳ ᵃ ˡᵃ 🛒ᵗⁱᵉⁿᵈᵃ ᵈᵉ 💎ᵈⁱᵃᵐᵃⁿᵗᵉˢ ᶜᵒⁿ ᵉˡ ᶜᵒᵐᵃⁿᵈᵒ\n🛒/ˢʰᵒᵖ\n\n✨ˢⁱ ᵗᵉ ⁱⁿᵗᵉʳᵉˢᵃ ᶜᵒᵐᵖʳᵃʳ ᵘⁿ ᵖᵉʳᵐⁱᵘᵐ ᵖᵃʳᵃ qᵘᵉ ᵉˡ ᵇᵒᵗ ⁿᵒ ᵗᵉ ᶜᵒᵇʳᵉ 💎ᵈⁱᵃᵐᵃⁿᵗᵉˢ ᵖᵘᵉᵈᵉˢ ⁱʳ ᵃˡ 🪙ᵗⁱᵉⁿᵈᵃ ᶜᵒⁿ ᵉˡ ᶜᵒᵐᵃⁿᵈᵒ\n🛒/ˢᵉˡˡ`, m) 
+                     this.reply(m.chat, `🧑🏻‍💻 HOLA, TUS DIAMANTES SE HAN AGOTADO, UTILIZA EL SIGUIENTE COMANDO PARA COMPRAR DIAMANTES\n\n/shop *para ir ala tienda*\n COMANDOS DE RECOMPENSASDIARIAS\n/CLAIM,/MINAR2/3/4,/COFFER, *usar sin las comas*`, m) 
                      continue // Limit habis 
                  } 
                  if (plugin.level > _user.level) { 
@@ -1480,11 +1480,11 @@ import { generateWAMessageFromContent } from "@adiwajshing/baileys"
         private: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴱⁿ ᴱˡ ᶜʰᵃᵗ ᴾʳⁱᵛᵃᵈᵒ ᴰᵉˡ ᴮᵒᵗ', 
         admin: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵃʳᵃ ˢᵒˡᵒ ᴬᵈᵐⁱⁿⁱˢᵗʳᵃᵈᵒʳᵉˢ ᴰᵉˡ ᴳʳᵘᵖᵒˢ', 
         botAdmin: '[⚠️ᵃᵛⁱˢᵒ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴾᵃʳᵃ ᴾᵒᵈᵉʳ ᵁˢᵃʳ ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᴱˢ ᴺᵉᶜᵉˢᵃʳⁱᵒ Qᵘᵉ ᴱˡ ᴮᵒᵗ ˢᵉᵃ ᴬᵈᵐⁱⁿⁱˢᵗʳᵃᵈᵒʳ ʸ ᴬᶜᶜᵉᵈᵉʳ ᴬᵈᵐⁱⁿ ᴬ ᴱˢᵗᵉ ᴺᵘᵐᵉʳᵒ', 
-        unreg: '*ᴴᵒˡᵃ ᵇ ᵃ ⁿᵘᵉˢᵗʳᵃ 💯ᶜᵒᵐᵘⁿⁱᵈᵃᵈ ᵈᵉ ᴴᵃᵈᵉˢ-ᵇᵒᵗ ᵖᵃʳᵃ ᵖᵒᵈᵉʳ ᵘˢᵃʳ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ᵈᵉˡ ᵇᵒᵗ ᵉˢ ⁿᵉᶜᵉˢᵃʳⁱᵒ qᵘᵉ ᵗᵉ ᵉⁿᶜᵘᵉⁿᵗʳᵉˢ\n📃ʳᵉᵍⁱˢᵗʳᵃᵈᵒ ᵉⁿ ᵐⁱ ᵇᵃˢᵉ ᵈᵉ ᵈᵃᵗᵒˢ ᵖᵃʳᵃ ʳᵉᵍⁱˢᵗʳᵃʳᵗᵉ ᵘˢᵃ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ˢⁱᵍᵘⁱᵉⁿᵗᵉˢ\n\n🪪/ʳᵉᵍ ⁿᵒᵐᵇʳᵉ.ᵉᵈᵃᵈ\nᵁⁿᵒ ᵉʲᵉᵐᵖˡᵒ\n🪪/ᴿᵉᵍ ᴴᵃᵈᵉˢ.²²\n\n📌ᴱˢᵖᵉʳᵒ qᵘᵉ ʰᵃʸᵃˢ ᵉⁿᵗᵉⁿᵈⁱᵈᵒ ʸ ᵖᵘᵉᵈᵃˢ ˢᵉʳ ʳᵉᵍⁱˢᵗʳᵃᵈᵒ ᵉⁿ ᵐⁱ ᵇᵃˢᵉ ᵈᵉ ᵈᵃᵗᵒˢ ᵖᵃʳᵃ qᵘᵉ ᵖᵘᵉᵈᵃˢ ʰᵃᶜᵉʳ ᵘˢᵒ ᵈᵉˡ ᵇᵒᵗ🪀', 
+        unreg: '*HOLA,🧑🏻‍💻 NECESITAS REGISTRARTE PARA USAR ÉSTE COMANDO.\nREGISTRARTE ESCRIBIENDO:\n\n/REG NOMBRE.EDAD\nEJEMPLO:\n/reg tony.17', 
         restrict: '[⚠️ᴬˡᵉʳᵗᵃ ⁱᵐᵖᵒʳᵗᵃⁿᵗᵉ⚠️]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᴱˢᵗᵃ ᴿᵉˢᵗʳⁱⁿᵍⁱᵈᵒ/ᴰᵉˢᵃᶜᵗⁱᵛᵃ ᴾᵒʳ ᴰᵉˢⁱᶜⁱᵒⁿ ᴰᵉˡ ᴾʳᵒᵖⁱᵉᵗᵃʳⁱᵒ/ᴬ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ' 
         }[type] 
      let aa = { quoted: m, userJid: conn.user.jid } 
-     let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍', thumbnail: imagen6, sourceUrl: 'https://github.com/OFC-YOVANI/HADES-OMEGA' }}}}, aa) 
+     let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: 'TONY-OFC', body: '©DROID-8-MD', thumbnail: imagen6, sourceUrl: 'http://tiktok.com/@tony.1p' }}}}, aa) 
      if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id }) 
      //if (msg) return m.reply(msg) 
  } 
