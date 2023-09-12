@@ -46,7 +46,7 @@ global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*'
 global.exito = eg
 
 global.wm = '𝐓𝐎𝐍𝐘⋆𝐎𝐅𝐂\n©DROID-8-MD-𝐜.ᵇᵒᵗ'
-global.igfg = 'DROID-8-MD-𝐜.ᵇᵒᵗ'
+global.igfg = 'https://chat.whatsapp.com/KXaAogRpQWOFwlAcP9JkQX'
 global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱'
 
 global.imagen1 = fs.readFileSync('./views/Menu.jpg')
