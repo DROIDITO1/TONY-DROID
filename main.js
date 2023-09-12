@@ -273,7 +273,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
  } 
   
   
- const pluginFolder = global.__dirname(join(__dirname, './plugins/index')) 
+ const pluginFolder = global.__dirname(join(__dirname, './plugins/indexOf'));
  const pluginFilter = filename => /\.js$/.test(filename) 
  global.plugins = {} 
  async function filesInit() { 
