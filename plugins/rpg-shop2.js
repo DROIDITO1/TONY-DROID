@@ -12,7 +12,7 @@ let handler = async (m, { conn, command, args }) => {
 │➯‣ *Compra nominal* : + ${count}💎 
 │➯‣ *Gastado* : -${xpperlimit * count} ʜᴀᴅᴇs-ᴄᴏɪɴs
 ╰───────────────╯`, m)
-  } else conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *ʜᴀᴅᴇs-ᴄᴏɪɴs* para comprar *${count}* Diamantes💎`, m)
+  } else conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *DROID-COINS* para comprar *${count}* Diamantes💎`, m)
 }
 handler.help = ['bus', 'busyall']
 handler.tags = ['money']
