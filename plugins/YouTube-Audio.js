@@ -5,7 +5,7 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽* \n\n *—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:* \n *${usedPrefix + command} Farruko beba* \n\n\n*[❗𝐈𝐍𝐅𝐎❗]MISSING SONG NAME PLEASE ENTER COMMAND PLUS SONG NAME* \n\n *—◉ AN EXAMPLE* \n *${usedPrefix + command} Farruko beba*`
+if (!text) throw `🧑🏻‍💻INGRESE EL NOMBRE DE LA CANCIÓN JUNTO CON EL COMANDO:\n *EJEMPLO:* \n *${usedPrefix + command} `
 try {
 await m.reply(` *_⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
 await m.reply(`⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
@@ -133,7 +133,7 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 }
 handler.command = ['audio', 'video']
 handler.exp = 0
-handler.limit = 4
+handler.limit = 1
 handler.register = true
 export default handler
 
