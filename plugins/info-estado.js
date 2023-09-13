@@ -10,7 +10,7 @@ let str = `╭「❥ *𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃* ❥」
 │
 │➯🤖 *MODO PRIVADO*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ➟ᴀᴄᴛɪᴠᴏ:* ${uptime}
-│➯🔗 *ᴄᴜᴇɴᴛᴀ ᴏғᴄ:* *http://tiktok.com/@coin.exe1*
+│➯🔗 *ᴄᴜᴇɴᴛᴀ ᴏғᴄ:* *http://tiktok.com/@tony.1p*
 ︎╰───────────────╯`.trim() 
 if (m.isGroup) {
 conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}, { quoted: m })    
