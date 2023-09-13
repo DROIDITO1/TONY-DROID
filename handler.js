@@ -31,9 +31,7 @@ import { generateWAMessageFromContent } from "@adiwajshing/baileys"
          return 
      if (global.db.data == null) await global.loadDatabase() 
   
- if (global.chatgpt && global.chatgpt.data === null) {
-    await global.loadChatgptDB();
-}         
+ if (global.chatgpt.data === null) await global.loadChatgptDB();        
   
  /*------------------------------------------------*/         
      try { 
