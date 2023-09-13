@@ -5,10 +5,10 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `🧑🏻‍💻INGRESE EL NOMBRE DE LA CANCIÓN JUNTO CON EL COMANDO:\n *EJEMPLO:* \n *${usedPrefix + command} `
+if (!text) throw `🧑🏻‍💻INGRESE EL NOMBRE DE LA CANCIÓN JUNTO CON EL COMANDO:\n *EJEMPLO:* \n *${usedPrefix + command} Cancerbero`
 try {
-await m.reply(` *_⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
-await m.reply(`⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
+await m.reply(` *🧑🏻‍💻:ESPERA MIENTRAS LE MANDO SU PEDIDO*`)
+await m.reply(`⌛ _Descargando..._\n▰▰▰▱▱▱▱▱▱`)
 const yt_play = await search(args.join(" "))
 let captionvid = `➤͜͡🎶📌*name:* *${yt_play[0].title}*
 ➤͜͡📆 *Published:* *${yt_play[0].ago}*
