@@ -23,23 +23,21 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 │➯🐥 *HOLA,➟${taguser}*
 │➯🧑🏻‍💻  DROID *MENU*
 │➯📅 *FECHA ACTUAL:➟${date}*
-│➯🤗 Tiempo activo: *547.5 días*
+│➯🤗 Tiempo activo: *549 días*
 ︎╰───────────────╯
 ╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯👨🏻‍💻 *HOLA,➟${taguser}*
 │ *BIENVENID@ AL MENU*
-│ *PUEDES SEGUIRNOS EN TIK-TOK*
-│ *http://tiktok.com/@coin.exe1*
-│ *CUENTAS/BOT-PUBLICO,Etc... 👇
-│ *https://linkbio.co/droid-8-md-tony-ofc*
+│ *PUEDES SEGUIRME EN TIK-TOK*
+│ *http://tiktok.com/@tony.1p*
 ︎╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「➻❥ *Estadísticas* ➻❥」
-├➽ *✳️️Nivel:* ${level}
-├➽ *🧿Experiencia:* ${exp}
-├➽ *⚓Rango:* ${role}
+├➽ *👑Nivel:* ${level}
+├➽ *📃Experiencia:* ${exp}
+├➽ *🛡Rango:* ${role}
 ├➽ *💎Diamantes:* ${limit}
-├➽ *🔱Hades-Coins:* ${money}
+├➽ *🧑🏻‍💻DROID-Coins:* ${money}
 ├➽ *💵dolares:* ${joincount}
 ├➽ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰───────────────╯
@@ -54,7 +52,6 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.comangrupos*
 ├➽ *.infogrupo*
 ├➽ *.shop [tienda]*
-├➽ *.sell [tienda]*
 ├➽ *.top2* [tabla]
 ╰───────────────╯
   👇 *actualizado* 👇
@@ -63,6 +60,17 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.ia* *<mas Avanzado, sirve para todo>*
 ├➽ *.bot* <para interactuar y amigar con el bot>
 ├➽ *.bot* <no tan Avanzado y algo de comedia>
+╰───────────────╯
+😼᭢━━━━━━━━━᭥😼᭢
+╭─「❥❤️ *Stickers* ❤️❥」
+├➽ *.sticker | .s
+├➽ *.stickersearch <buscador de stickers>
+ejemplo: *.stickersearch pocoyo*
+├➽ *.wm <paquete | nombre>*
+├➽ *.sermoverbg [sticker sin fondo]*
+├➽ *.scircle [sticker circular]*
+├➽ *.emojimix ☺&😈*
+├➽ *.dados*
 ╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥ *Grupos*  ❥」
@@ -74,6 +82,7 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.infogp <info del grupo>*
 ├➽ *.infobot <estado del bot>*
 ├➽ *.hidetag*
+├➽ *.afk <razón>
 ├➽ *.delete*
 ├➽ *.del*
 ├➽ *.join* [link del grupo]*
@@ -111,15 +120,6 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.añadirdolares @tag <cantidad>*
 ├➽ *.addprem @tag days*
 ╰───────────────╯
-😼᭢━━━━━━━━━᭥😼᭢
-╭─「❥👾 *Stickers* 🌴❥」
-├➽ *.sticker/.s
-├➽ *.wm paquete | nombre*
-├➽ *.sermoverbg [imagen sin fondo]*
-├➽ *.scircle [sticker circular]*
-├➽ *.emojimix ☺&😈*
-├➽ *.dados*
-╰───────────────╯
 🦅᭢━━━━━━━━━᭥🦅᭢
 ╭─「❥🤖 *Reportar* 🤖❥」
 ├➽ *.reporte [comandos en fallos]*
@@ -135,20 +135,16 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ╭──「❥🎙️ *Descargas* 📽️❥」
 ├➽ *.wikipedia <busqueda>*
 ├➽ *.animeinfo <nombre>*
-├➽ *.play*
-├➽ *.play2*
-├➽ *.play3*
-├➽ *.play4*
-├➽ *.audio*
-├➽ *.video*
+├➽ *.audio* <nombre de la música>
+├➽ *.video* <nombre del video>
 ├➽ *.audiodocu*
 ├➽ *.videodocu*
-├➽ *.ytmp3 <link>
-├➽ *.ytmp4 <link>*
+├➽ *.ytmp3 <link yt>
+├➽ *.ytmp4 <link yt>*
 ├➽ *.ytmp3doc*
 ├➽ *.ytmp4doc*
 ├➽ *.facebook*
-├➽ *.tiktok*
+├➽ *.tiktok* <link>
 ├➽ *.mediafir*
 ├➽ *.twitter*
 ├➽ *.ig*
@@ -238,7 +234,6 @@ let str = `╭「➻❥DROID-8-MD➻❥」
 ├➽ *.pubg*
 ├➽ *.wprandom*
 ├➽ *.styletext*
-├➽ *.afk [razón]*
 ├➽ *.lb*
 ├➽ *.perfil*
 ├➽ *.clima*
