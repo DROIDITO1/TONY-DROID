@@ -21,7 +21,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
      if (id in conn.math) return conn.reply(m.chat, '📵 Todavía hay preguntas sin respuesta en este chat', conn.math[id][0]) 
      let math = genMath(mode) 
      conn.math[id] = [ 
-         await conn.reply(m.chat, `🧑🏻‍💻 CUANTO ES ${math.str}=\n\nTiempo: ${(math.time / 1000).toFixed(2)} segundos\n\n🎁 Recompensa : ${math.bonus} xp`, m), 
+         await conn.reply(m.chat, `🧑🏻‍💻 CUANTO ES ${math.str}=\n\nTiempo: ${(math.time / 1000).toFixed(2)} segundos\n\n🎁 Recompensa : ${math.bonus} XP*`, m), 
          math, 4, 
          setTimeout(() => { 
              if (conn.math[id]) conn.reply(m.chat, `⌚ Se acabó el tiempo!\nLa respuesta es: ${math.result}`, conn.math[id][0]) 
