@@ -14,13 +14,13 @@ import MessageType from '@adiwajshing/baileys'
  limit -= pjk 
  if (limit < 1) throw '*INGRSE LA CANTIDAD QUE DEE QUITAR*' 
  let users = global.db.data.users 
- users[who].limit += dmt 
+ users[who].limit -= dmt 
  m.reply(`≡ *💎 QUITADO* 
  ┌────────────── 
  ▢ *𝚃𝚘𝚝𝚊𝚕 -:* ${dmt} 
  └──────────────`) 
  } 
- handler.command = ['añadirdiamantes','dellimit','quitar','quitardiamantes']  
+ handler.command = ['quitardiamantes','delimit','quitar','quitardiamantes']  
  handler.rowner = true 
  handler.register = true 
  export default handler
