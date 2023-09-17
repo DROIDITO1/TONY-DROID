@@ -3,7 +3,7 @@ let time = global.db.data.users[m.sender].lastcofre + 86400000 // 36000000 10 Ho
 if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `YA RECLAMASTE TU COFRE\𝚗VUELVE EN *${msToTime(time - new Date())}* PARA VOLVER A RECLAMAR`
 
 
-let img = 'https://chat.whatsapp.com/CNrOeTr9PvE1hWCG8tKcqe:w=2000'
+let img = 'https://images.app.goo.gl/zxhX35PyRUQp3V5z7'
 let dia = Math.floor(Math.random() * 30)
 let tok = Math.floor(Math.random() * 10)
 let hadesb = Math.floor(Math.random() * 4000)
