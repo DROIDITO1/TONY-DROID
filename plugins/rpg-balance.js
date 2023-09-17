@@ -6,7 +6,7 @@ let handler = async (m, { usedPrefix }) => {
   m.reply(`╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
  │💰 *《《BALANCE》》*
  │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
- │🧑🏻‍💻 *USER:*  @${user} // Mostrar el nombre de usuario con @
+ │🧑🏻‍💻 *USER:* ${user}
  │💎 *DIAMANTES:* ${global.db.data.users[who].limit}💎
  │💸 *DOLARES* ${global.db.data.users[who].joincount}
  │🕶 *DROID-COINS* ${global.db.data.users[who].money}
