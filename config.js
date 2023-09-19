@@ -4,12 +4,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59163133871', 'WINNER', true],
+  ['50258487658', 'TONY', true],
   ['50258487658', '𝑶𝑭𝑪 𝑻𝑶𝑵𝒀', true],
 ]
 global.suittag =['50258487658']
 global.mods = []
-global.prems = ['59163133871'], 
+global.prems = ['50258487658'], 
 global.prems = ['50258487658'],
 
 global.packname = 'DROID-8-MD-𝐜.ᵇᵒᵗ'
