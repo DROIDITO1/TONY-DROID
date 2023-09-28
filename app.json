@@ -1,10 +1,10 @@
 {
-  "name": "DROID-8-MD",
-  "website": "http://tiktok.com/@coin.exe1",
-  "description": "Super Bot WhatsApp",
-  "repository": "https://chat.whatsapp.com/HCJozD71O1VBtW68E5hu4L",
+  "name": "DROID-MD",
+  "website": "http://tiktok.com/@tony.1p",
+  "description": "SÍGUEME EN TIKTOK (≧▽≦)",
+  "repository": "http://tiktok.com/@tony.1p",
   "logo": "https://i.imgur.com/AmzlKVi.jpeg",
-  "success_url": "",
+  "success_url": "http://tiktok.com/@tony.1p",
   "keywords": [
     "nodejs",
     "heroku",
@@ -14,12 +14,15 @@
     "spanish",
     "whatsapp",
     "termux",
-    "shadow",
+    "droid",
     "multi-device",
     "md",
     "whatsappbot",
     "oficial",
     "whatsapp-md",
+    "thedroidbot",
+    "thedroid-bot",
+    "thedroid-bot-md"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
